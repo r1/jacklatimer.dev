@@ -42,7 +42,7 @@ function Skills() {
                 >
                   <Grid container direction="row" spacing={2}>
                     <Grid item>
-                        <h2 className="text-white">&nbsp;{s.name}</h2>
+                        <h2 className="text-white">{s.name}</h2>
                         <h3 style={{ color: "#999" }}>{s.category}</h3>
                     </Grid>
                   </Grid>

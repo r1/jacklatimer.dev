@@ -13,7 +13,7 @@ export const skills = [
   },
   {
     category: "CSS Framework",
-    name: "Tailwind",
+    name: "Tailwind CSS",
   },
   {
     category: "JavaScript Library",
@@ -36,11 +36,11 @@ export const skills = [
     name: "Git",
   },
   {
-    category: "Design Tool",
-    name: "Adobe XD",
-  },
-  {
     category: "Source Code Management",
     name: "GitHub",
+  },
+  {
+    category: "Design Tool",
+    name: "Adobe XD",
   },
 ];
