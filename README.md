@@ -1,8 +1,26 @@
-<<<<<<< HEAD
-# JL
-🤩 My personal website made with React.js 
-=======
+<p align="center">
+<h2 align="center">nine4.app open source template website</h2> 
+<h2 align="center">
+nine4.app is a free template website for developers, businesses and hobbyists providing free templates built with Next.js and styled with Tailwind CSS.
+</h2> 
+</p>
+<img src="https://i.gyazo.com/25610b51277860a6c83ec8e316472c6d.png"></img>
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Overview
+
+NextAuth.js is a complete open source authentication solution for [Next.js](http://nextjs.org/) applications.
+
+It is designed from the ground up to support Next.js and Serverless.
+
+
+
+
+
+
+
+
 
 ## Getting Started
 
@@ -32,4 +50,3 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
->>>>>>> 58193a3... Add Files

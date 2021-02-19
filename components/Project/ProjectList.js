@@ -13,7 +13,7 @@ const projects = [
     title: "NINE4",
     image: "./images/nine4",
     description:
-      "nine4 is a free template website for developers/businesses. It is made with Next.js and styled with Tailwind CSS",
+      "nine4 is a free template website for developers/businesses. It is made with Next.js and styled with Tailwind CSS.",
     tools: ["React", "TailwindCSS", "Vercel"],
     github: "https://github.com/r1/nine4",
     link: "https://nine4.app/",
