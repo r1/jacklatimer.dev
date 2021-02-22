@@ -3,7 +3,6 @@ import Container from "@/components/Container";
 import Skills from "@/components/Skills/Skills";
 import Projects from "@/components/Project/Projects";
 import { NextSeo } from "next-seo";
-import Skeleton from "react-loading-skeleton";
 import LayoutGA from "@/components/LayoutGA";
 
 const ExternalLink = ({ href, children }) => (
@@ -33,7 +32,6 @@ export default function Home() {
               description="Front-End React Developer Based In Liverpool, England"
             />
             <div className="flex flex-col items-start justify-center max-w-2xl mx-auto mb-16">
-              <Skeleton />
               <h1 className="mb-4 text-3xl font-bold tracking-tight text-black md:text-5xl dark:text-white">
                 Hey, I'm Jack <span className="emoji-wave">👋</span>
               </h1>
