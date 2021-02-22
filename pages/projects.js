@@ -2,6 +2,7 @@ import Head from "next/head";
 import Container from "@/components/Container";
 import { NextSeo } from "next-seo";
 import projects from "@/components/Project/ProjectList";
+import LayoutGA from "@/components/LayoutGA";
 
 const ExternalLink = ({ href, children }) => (
   <a
@@ -16,66 +17,74 @@ const ExternalLink = ({ href, children }) => (
 
 export default function project() {
   return (
-    <Container>
-      <Head>
-        <title>jacklatimer.dev</title>
-        <link rel="icon" href="./favicon.png" />
-        <meta name="keywords" content="Jack Latimer, Jack Latimer Projects, Portfolio project, r1"></meta>
-      </Head>
-      <NextSeo
-        title="Jack Latimer - Projects"
-        description="My Personal Project Portfolio"
-      />
-      <div className="flex flex-col items-start justify-center max-w-2xl mx-auto mb-16">
-        <section id="projects">
-          <h3 className="mb-4 text-3xl font-bold tracking-tight text-black md:text-5xl dark:text-white">
-            Projects
-          </h3>
-          <h2 className="mb-10 text-gray-600 dark:text-gray-400">
-            My best projects that I have been working on for the past year.
-            Click on the project titles to learn more about them.
-          </h2>
-          <div className="my-5 space-y-14">
-            {projects.map((project, index) => (
-              <article
-                className="flex flex-wrap md:justify-between md:items-center"
-                key={index}
-              >
-                <img
-                  src={`${project.image}.webp`}
-                  sizes="(min-width: 768px) 50vw, 100vw"
-                  width="068px"
-                  height="575px"
-                  loading="lazy"
-                  alt={project.title}
-                  className={
-                    index % 2 === 0
-                      ? "w-full md:w-6/12 rounded-lg shadow-lg "
-                      : "w-full md:w-6/12 rounded-lg shadow-lg md:order-1"
-                  }
-                />
-                <div className="flex flex-col w-full mx-1 my-3 space-y-3 overflow-auto md:w-5/12 ">
-                  <a href={project.url}>
-                    <h3 className="text-lg font-bold text-black uppercase dark:text-white">
-                      {project.title}
-                    </h3>
-                  </a>
-                  <p className="text-black dark:text-gray-500">
-                    {project.description}
-                  </p>
-                  <div className="flex pb-2 space-x-3 overflow-auto">
-                    {project.tools.map((disc, index) => (
-                      <span
-                        className="flex px-2 py-1 text-sm text-black border border-gray-500 rounded-lg dark:text-gray-500 "
-                        key={index}
-                      >
-                        {disc}
-                      </span>
-                    ))}
-                  </div>
-                  <div className="relative flex w-auto space-x-4">
+    <LayoutGA>
+      <Container>
+        <Head>
+          <title>jacklatimer.dev</title>
+          <link rel="icon" href="./favicon.png" />
+          <meta
+            name="keywords"
+            content="Jack Latimer, Jack Latimer Projects, Portfolio project, r1"
+          ></meta>
+        </Head>
+        <NextSeo
+          title="Jack Latimer - Projects"
+          description="My Personal Project Portfolio"
+        />
+        <div className="flex flex-col items-start justify-center max-w-2xl mx-auto mb-16">
+          <section id="projects">
+            <h3 className="mb-4 text-3xl font-bold tracking-tight text-black md:text-5xl dark:text-white">
+              Projects
+            </h3>
+            <h2 className="mb-10 text-gray-600 dark:text-gray-400">
+              My best projects that I have been working on for the past year.
+              Click on the project titles to learn more about them.
+            </h2>
+            <div className="my-5 space-y-14">
+              {projects.map((project, index) => (
+                <article
+                  className="flex flex-wrap md:justify-between md:items-center"
+                  key={index}
+                >
+                  <img
+                    src={`${project.image}.webp`}
+                    sizes="(min-width: 768px) 50vw, 100vw"
+                    width="068px"
+                    height="575px"
+                    loading="lazy"
+                    alt={project.title}
+                    className={
+                      index % 2 === 0
+                        ? "w-full md:w-6/12 rounded-lg shadow-lg "
+                        : "w-full md:w-6/12 rounded-lg shadow-lg md:order-1"
+                    }
+                  />
+                  <div className="flex flex-col w-full mx-1 my-3 space-y-3 overflow-auto md:w-5/12 ">
+                    <a href={project.url}>
+                      <h3 className="text-lg font-bold text-black uppercase dark:text-white">
+                        {project.title}
+                      </h3>
+                    </a>
+                    <p className="text-black dark:text-gray-500">
+                      {project.description}
+                    </p>
+                    <div className="flex pb-2 space-x-3 overflow-auto">
+                      {project.tools.map((disc, index) => (
+                        <span
+                          className="flex px-2 py-1 text-sm text-black border border-gray-500 rounded-lg dark:text-gray-500 "
+                          key={index}
+                        >
+                          {disc}
+                        </span>
+                      ))}
+                    </div>
+                    <div className="relative flex w-auto space-x-4">
                       <div className="flex">
-                        <ExternalLink href={project.github} target="_blank" rel="noreferrer">
+                        <ExternalLink
+                          href={project.github}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
                           <span className="sr-only">Github</span>
                           <svg className="w-8 h-7" viewBox="0 0 24 24">
                             <g
@@ -90,23 +99,24 @@ export default function project() {
                           </svg>
                         </ExternalLink>
                       </div>
-                    <div className="relative flex w-auto">
-                      <a href={project.link} target="_blank" rel="noreferrer">
-                        <img
-                          src="./images/external-link.svg"
-                          alt="link to live website"
-                          width="27px"
-                          height="27px"
-                        />
-                      </a>
+                      <div className="relative flex w-auto">
+                        <a href={project.link} target="_blank" rel="noreferrer">
+                          <img
+                            src="./images/external-link.svg"
+                            alt="link to live website"
+                            width="27px"
+                            height="27px"
+                          />
+                        </a>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </article>
-            ))}
-          </div>
-        </section>
-      </div>
-    </Container>
+                </article>
+              ))}
+            </div>
+          </section>
+        </div>
+      </Container>
+    </LayoutGA>
   );
 }

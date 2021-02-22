@@ -29,6 +29,7 @@
     "react-emotion": "^10.0.0",
     "react-headroom": "^3.1.0",
     "react-helmet": "^6.1.0",
+    "react-loading-skeleton": "^2.1.1",
     "react-router-dom": "^5.2.0",
     "react-tweet-embed": "^1.2.2",
     "reading-time": "^1.2.1",

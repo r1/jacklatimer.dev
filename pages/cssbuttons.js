@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Container from "@/components/Container";
 import { NextSeo } from "next-seo";
+import LayoutGA from '@/components/LayoutGA';
 
 const ExternalLink = ({ href, children }) => (
   <a

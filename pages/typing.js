@@ -4,6 +4,7 @@ import NextLink from "next/link";
 import Head from "next/head";
 import { useState, useEffect } from "react";
 import { NextSeo } from "next-seo";
+import LayoutGA from "@/components/LayoutGA";
 
 export default function typing() {
   const ExternalLink = ({ href, children }) => (
@@ -23,11 +24,14 @@ export default function typing() {
   useEffect(() => setMounted(true), []);
 
   return (
-    <div>
+    <LayoutGA>
       <Head>
         <title>jacklatimer.dev</title>
         <link rel="icon" href="./favicon.png" />
-        <meta name="keywords" content="Jack Latimer, typing game, typing, r1"></meta>
+        <meta
+          name="keywords"
+          content="Jack Latimer, typing game, typing, r1"
+        ></meta>
       </Head>
       <NextSeo
         title="Jack Latimer - Typing Game"
@@ -127,6 +131,6 @@ export default function typing() {
           </ExternalLink>
         </div>
       </footer>
-    </div>
+    </LayoutGA>
   );
 }
