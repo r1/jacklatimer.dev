@@ -17,6 +17,7 @@
     "comma-number": "^2.0.1",
     "date-fns": "^2.16.1",
     "dotenv": "^8.2.0",
+    "fs": "0.0.1-security",
     "globby": "^11.0.2",
     "gray-matter": "^4.0.2",
     "mdx-prism": "^0.3.1",
