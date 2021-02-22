@@ -82,7 +82,7 @@ export default function Home() {
                   </svg>
                 </ExternalLink>
               </div>
-              <h2 className="animate-pulse mb-10 text-gray-600 dark:text-gray-400">
+              <h2 className="mb-10 text-gray-600 dark:text-gray-400">
                 I'm a Front-End React Developer based in Liverpool, England. I
                 have been coding for nearly 2 years, specializing in React and
                 Tailwind CSS for just over 1 year. Feel free to contact me
