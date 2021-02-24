@@ -1,8 +1,6 @@
 export const texts = {
   1: {
-    text:
-      'this is when the thing went down the hole when be in the moment is',
-
+    text: "this is when the thing went down the hole when be in the moment is",
   },
   2: {
     text:
@@ -21,10 +19,12 @@ export const texts = {
       "point long such both consider want because when the many nation in went down",
   },
   6: {
-    text:
-      "be when the nation he against run when the level in the consider",
-  },  6: {
-    text:
-      "what then consider be and loop the many because nation in went",
+    text: "be when the nation he against run when the level in the consider",
   },
-}
+  7: {
+    text: "what then consider be and loop the many because nation in went",
+  },
+  8: {
+    text: "balloon be and when the he maybe against life when she went down",
+  },
+};
