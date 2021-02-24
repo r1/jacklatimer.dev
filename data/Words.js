@@ -23,5 +23,8 @@ export const texts = {
   6: {
     text:
       "be when the nation he against run when the level in the consider",
+  },  6: {
+    text:
+      "what then consider be and loop the many because nation in went",
   },
 }
