@@ -37,7 +37,6 @@ export default function project() {
           </h2>
           <img src="./images/jacklatimer.webp"></img>
           <h2 className="mb-10 text-gray-600 dark:text-gray-400">
-            Coming Soon.
           </h2>
           <h2 className="mt-5 mb-10 space-x-4 text-gray-900 dark:text-gray-400"></h2>
         </div>
