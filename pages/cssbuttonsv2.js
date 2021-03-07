@@ -24,8 +24,8 @@ export default function project() {
           <meta name="keywords" content="Jack Latimer, r1"></meta>
         </Head>
         <NextSeo
-          title="Jack Latimer - nine4.app"
-          description="Free To Use Template Sites Built With Next.js"
+          title="Jack Latimer - cssbuttons.app"
+          description="CSSBUTTONS - Collection of HTML & CSS Buttons"
         />
         <div className="flex flex-col items-start justify-center max-w-2xl mx-auto mb-16">
           <h3 className="mb-4 text-3xl font-bold tracking-tight text-black md:text-5xl dark:text-white">
