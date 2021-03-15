@@ -18,6 +18,7 @@ export default class Game extends React.Component {
     wpm: null,
     progress: 0
   }
+
   componentWillReceiveProps (nextProps) {
     if (nextProps.text !== this.props.text) {
       throw new Error(
@@ -25,9 +26,11 @@ export default class Game extends React.Component {
       )
     }
   }
+
   onType = () => {
     if (!this.started) this.started = Date.now()
   }
+
   onProgress = (current, total) => {
     this.setState({
       progress: current / total,
