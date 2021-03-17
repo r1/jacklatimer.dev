@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://jl-git-main.r15.vercel.app/sitemap.xml
+Sitemap: https://jacklatimer.dev/sitemap.xml
