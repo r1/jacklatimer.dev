@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://jacklatimer.dev</loc>
+  </url>
+
   <url>
     <loc>https://jacklatimer.dev/cssbuttons</loc>
   </url>
 
   <url>
-    <loc>https://jacklatimer.dev</loc>
+    <loc>https://jacklatimer.dev/cssbuttonsv2</loc>
   </url>
 
   <url>
