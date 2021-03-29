@@ -8,12 +8,16 @@ export const skills = [
     name: "CSS3",
   },
   {
+    category: "CSS Framework",
+    name: "Tailwind CSS",
+  },
+  {
     category: "Programming Language",
     name: "JavaScript",
   },
   {
-    category: "CSS Framework",
-    name: "Tailwind CSS",
+    category: "Programming Language",
+    name: "TypeScript",
   },
   {
     category: "JavaScript Library",
@@ -25,19 +29,15 @@ export const skills = [
   },
   {
     category: "Backend JavaScript Runtime",
-    name: "NodeJS",
-  },
-  {
-    category: "Structuring Data",
-    name: "JSON",
+    name: "Node.js",
   },
   {
     category: "Version Control (VCS)",
     name: "Git",
   },
   {
-    category: "Source Code Management",
-    name: "GitHub",
+    category: "Development Technique",
+    name: "TDD",
   },
   {
     category: "Design Tool",

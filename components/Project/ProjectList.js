@@ -1,16 +1,16 @@
 const projects = [
   {
-    title: "CSSBUTTONS",
+    title: "CSSBUTTONS.APP",
     image: "./images/cssbuttons",
     description:
       "cssbuttons is an MIT-licensed open source project full of pure CSS & HTML buttons for developers built-in React with over 10,000 views since launch.",
     tools: ["React", "Vercel"],
     github: "https://github.com/r1/cssbuttons",
-    link: "https://cssbuttons.vercel.app/",
+    link: "https://cssbuttons.app/",
     url: "/cssbuttons"
   },
   {
-    title: "NINE4",
+    title: "NINE4.APP",
     image: "./images/nine4",
     description:
       "nine4 is a free template website for developers/businesses. It is made with Next.js and styled with Tailwind CSS.",
