@@ -24,8 +24,8 @@ export default function NotFound() {
   return (
     <div>
       <NextSeo
-        title="Jack Latimer - 404"
-        description="404"
+        title="Jack Latimer - 500"
+        description="500"
       />
       <header>
         <nav className="flex items-center justify-between w-full max-w-4xl p-8 mx-auto my-0 bg-white sticky-nav md-auto dark:bg-black bg-opacity-60">
@@ -71,15 +71,10 @@ export default function NotFound() {
           </div>
         </nav>
       </header>
-      <div className="flex flex-col justify-center mx-auto mt-32 text-center max-w-2x1">
-        <h1 className="mb-4 text-5xl font-bold tracking-tight text-black dark:text-white">
-          404 – Unavailable
+      <div className="flex flex-col justify-center mx-auto mt-12 text-center max-w-2x1">
+        <h1 className="mb-4 text-6xl font-bold tracking-tight text-black md:text-5xl dark:text-white">
+          500 – Server-side error occurred
         </h1>
-        <Link href="/">
-          <a className="w-64 p-1 mx-auto font-bold text-center text-black border border-gray-500 rounded-lg sm:p-4 dark:text-white">
-            Return Home
-          </a>
-        </Link>
       </div>
       <footer className="flex flex-col items-center mb-8 footer-typing">
         <div className="flex mb-4 space-x-4">
