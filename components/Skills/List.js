@@ -13,11 +13,11 @@ export const skills = [
   },
   {
     category: "Programming Language",
-    name: "JavaScript",
+    name: "TypeScript",
   },
   {
     category: "Programming Language",
-    name: "TypeScript",
+    name: "JavaScript",
   },
   {
     category: "JavaScript Library",
@@ -36,11 +36,11 @@ export const skills = [
     name: "Git",
   },
   {
-    category: "Development Technique",
-    name: "TDD",
+    category: "JavaScript Testing Framework",
+    name: "Jest",
   },
   {
-    category: "Design Tool",
-    name: "Adobe XD",
+    category: "Development Technique",
+    name: "TDD",
   },
 ];
