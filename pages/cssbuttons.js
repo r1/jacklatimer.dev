@@ -31,13 +31,22 @@ export default function project() {
       />
       <div className="flex flex-col items-start justify-center max-w-2xl mx-auto mb-16">
         <h3 className="mb-4 text-3xl font-bold tracking-tight text-black md:text-5xl dark:text-white">
-          CSSBUTTONS
+          CSSBUTTONS V2
         </h3>
         <h2 className="mb-10 text-gray-600 dark:text-gray-400">
           cssbuttons is an MIT-licensed open source project full of pure CSS &
           HTML buttons for developers built-in React hosted on ▲Vercel.
         </h2>
-        <img src="./images/cssbuttons.webp"></img>
+        <h3 className="mb-4 text-2xl font-bold tracking-tight text-black md:text-3xl dark:text-white">
+          CSSBUTTONS V2:
+        </h3>
+        <img src="./images/cssbuttonsv2.png"></img>
+        <br />
+        <img src="./images/cssbuttonsv2_button.png"></img>
+        <br />
+        <h3 className="text-2xl font-bold tracking-tight text-black md:text-3xl dark:text-white">
+          CSSBUTTONS V1:
+        </h3>
         <h2 className="mt-5 mb-10 space-x-4 text-gray-900 dark:text-gray-400">
           When I started thinking about cssbuttons I always needed a
           collection of buttons on a site which I could simply go to and paste
