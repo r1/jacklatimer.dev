@@ -9,26 +9,9 @@ export default function Container({ children, dir, pos, atHome, isMobile }) {
 
   useEffect(() => setMounted(true), []);
 
-  const headerClass = () => {
-    let CLASS = "home-header";
-    if (isMobile || pos >= 300) CLASS += " fill";
-    if (!atHome && pos > 0) CLASS += " fill";
-    switch (dir) {
-      case "down":
-        return (CLASS += " hide");
-      case "up":
-        return (CLASS += " show");
-      case "top":
-        return CLASS;
-      default:
-        break;
-    }
-    return CLASS;
-  };
-
   return (
     <div className="bg-white dark:bg-black">
-      <header className={headerClass()}>
+      <header>
         <nav className="z-0 flex items-center justify-between w-full max-w-4xl p-8 mx-auto my-0 bg-white sticky-nav md-auto dark:bg-black">
           <button
             aria-label="Toggle Dark Mode"
