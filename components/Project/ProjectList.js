@@ -21,7 +21,7 @@ const projects = [
   },
   {
     title: "JACKLATIMER.DEV",
-    image: "./images/jacklatimer",
+    image: "./images/jacklatimer.dev",
     description:
       "jacklatimer.dev is my own personal website built in Next.js and styled with Tailwind CSS.",
     tools: ["Next.js", "TailwindCSS", "Vercel"],

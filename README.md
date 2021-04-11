@@ -1,19 +1,11 @@
-<p align="center">
-<h2 align="center">jacklatimer.dev</h2> 
-</p>
-
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Overview
-
-NextAuth.js is a complete open source authentication solution for [Next.js](http://nextjs.org/) applications.
-
-It is designed from the ground up to support Next.js and Serverless.
-
-
-
-
-
+<div align="center">
+<h1 align="center">jacklatimer.dev</h1> 
+Tech Stack: Next.js / React, Tailwind CSS, Material UI
+<br></br>
+<img src="./img/main_page.png"></img>
+<img src="./img/main_page2.png"></img>
+<img src="./img/cssbuttons.png"></img>
+</div>
 
 
 
