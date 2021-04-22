@@ -35,7 +35,7 @@
     "simple-functional-loader": "^1.2.1",
     "swr": "^0.3.11",
     "tailwindcss": "^2.0.2",
-    "webpack": "^5.28.0"
+    "webpack": "^5.35.0"
   },
   "devDependencies": {
     "@types/react": "^17.0.0",
