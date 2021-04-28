@@ -18,7 +18,7 @@ function Skills() {
   return (
     <section id="skills">
       <h3 className="text-2xl font-bold tracking-tight text-black md:text-4xl mb-11 dark:text-white">
-        Technologies
+        Technologies & Skills
       </h3>
       <Grid
         direction="column"
