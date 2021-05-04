@@ -4,6 +4,7 @@ import Skills from "@/components/Skills/Skills";
 import Projects from "@/components/Project/Projects";
 import { NextSeo } from "next-seo";
 import LayoutGA from "@/components/LayoutGA";
+import Footer from "@/components/Footer";
 
 const ExternalLink = ({ href, children }) => (
   <a
@@ -94,6 +95,7 @@ export default function Home() {
             </div>
           </div>
         </Container>
+        <Footer />
       </body>
     </LayoutGA>
   );

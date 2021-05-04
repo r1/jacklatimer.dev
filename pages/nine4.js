@@ -2,6 +2,7 @@ import Head from "next/head";
 import Container from "@/components/Container";
 import { NextSeo } from "next-seo";
 import LayoutGA from "@/components/LayoutGA";
+import Footer from "@/components/Footer";
 
 const ExternalLink = ({ href, children }) => (
   <a
@@ -31,12 +32,12 @@ export default function project() {
           <h3 className="mb-4 text-3xl font-bold tracking-tight text-black md:text-5xl dark:text-white">
             NINE4
           </h3>
-          <h2 className="mb-10 text-gray-600 dark:text-gray-400">
-          </h2>
+          <h2 className="mb-10 text-gray-600 dark:text-gray-400"></h2>
           <img src="./images/nine4.webp"></img>
           <h2 className="mt-5 mb-10 space-x-4 text-gray-900 dark:text-gray-400"></h2>
         </div>
       </Container>
+      <Footer />
     </LayoutGA>
   );
 }

@@ -3,6 +3,7 @@ import Container from "@/components/Container";
 import { NextSeo } from "next-seo";
 import projects from "@/components/Project/ProjectList";
 import LayoutGA from "@/components/LayoutGA";
+import Footer from "@/components/Footer";
 
 const ExternalLink = ({ href, children }) => (
   <a
@@ -117,6 +118,7 @@ export default function project() {
           </section>
         </div>
       </Container>
+      <Footer />
     </LayoutGA>
   );
 }

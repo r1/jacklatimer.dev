@@ -30,7 +30,7 @@ function Skills() {
         <Grid container item justify="center" alignItems="center" spacing={3}>
           {skills.map((i) => {
             return (
-              <Grid item key={isSecureContext.item}>
+              <Grid item key={i.item}>
                 <div
                   elevation={3}
                   style={{
@@ -42,8 +42,8 @@ function Skills() {
                 >
                   <Grid container direction="row" spacing={2}>
                     <Grid item>
-                      <h2 className="text-white">{i.name}</h2>
-                      <h3 style={{ color: "#999" }}>{i.category}</h3>
+                        <h2 className="text-white">{i.name}</h2>
+                        <h3 style={{ color: "#999" }}>{i.category}</h3>
                     </Grid>
                   </Grid>
                 </div>

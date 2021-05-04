@@ -72,7 +72,6 @@ export default function Container({ children, dir, pos, atHome, isMobile }) {
       </header>
       <main className="flex flex-col justify-center px-8 bg-white dark:bg-black">
         {children}
-        <Footer />
       </main>
     </div>
   );
