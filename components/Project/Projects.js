@@ -40,7 +40,7 @@ const Project = () => {
                     {project.title}
                   </h3>
                 </a>
-                <p className="text-black dark:text-gray-500">
+                <p className="text-black dark:text-gray-600 font-semibold">
                   {project.description}
                 </p>
                 <div className="flex pb-2 space-x-3 overflow-auto">

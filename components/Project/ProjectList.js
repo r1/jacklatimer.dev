@@ -3,7 +3,7 @@ const projects = [
     title: "CSSBUTTONS.APP",
     image: "./images/cssbuttons",
     description:
-      "cssbuttons is an MIT-licensed open source project full of pure CSS & HTML buttons for developers built-in React with over 10,000 views since launch.",
+      "cssbuttons.app is an MIT-licensed open source project full of pure CSS & HTML buttons for developers built-in React with over 10,000 views since launch.",
     tools: ["React", "Vercel"],
     github: "https://github.com/r1/cssbuttons",
     link: "https://cssbuttons.app/",
@@ -13,7 +13,7 @@ const projects = [
     title: "NINE4.APP",
     image: "./images/nine4",
     description:
-      "nine4 is a free template website for developers/businesses. It is made with Next.js and styled with Tailwind CSS.",
+      "nine4.app is a free template website for developers/businesses. It is made with Next.js and styled with Tailwind CSS.",
     tools: ["React", "TailwindCSS", "Vercel"],
     github: "https://github.com/r1/nine4",
     link: "https://nine4.app/",
