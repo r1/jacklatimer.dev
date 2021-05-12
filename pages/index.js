@@ -45,8 +45,8 @@ export default function Home() {
                 Software Engineer
               </div>
               <h2 className="mb-2 text-lg text-gray-700 font-semibold dark:text-gray-500 text-center mx-auto">
-                I'm a Front-End React Developer based in Liverpool, England. I
-                have been coding for nearly 2 years and have been using React
+                I'm a Front-End Developer based in Liverpool, England. I
+                have been coding for 2 years and have been using React
                 for just over 1 year.
               </h2>
               <h2 className="mb-2 text-gray-700 font-semibold dark:text-gray-500 text-center mx-auto">
