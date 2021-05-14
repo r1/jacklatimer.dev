@@ -13,7 +13,7 @@ export const skills = [
   },
   {
     category: "Programming Language",
-    name: "TypeScript",
+    name: "TypeScript (Learning)",
   },
   {
     category: "Programming Language",
@@ -28,19 +28,15 @@ export const skills = [
     name: "Next.js",
   },
   {
-    category: "Backend JavaScript Runtime",
-    name: "Node.js",
-  },
-  {
     category: "Version Control (VCS)",
     name: "Git",
   },
   {
     category: "JavaScript Testing Framework",
-    name: "Jest",
+    name: "Jest (Learning)",
   },
   {
-    category: "Development Technique",
-    name: "TDD",
+    category: "JavaScript Testing Framework",
+    name: "Cypress (Learning)",
   },
 ];
