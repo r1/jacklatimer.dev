@@ -12,7 +12,7 @@ export default function App({ Component, pageProps }) {
       <Head>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
       </Head>
-      <body className="text-white bg-white dark:bg-black dark:text-black">
+      <body className="bg-black text-white">
         <DefaultSeo {...SEO} />
         <Component {...pageProps} />
       </body>

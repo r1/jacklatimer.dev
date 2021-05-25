@@ -9,7 +9,7 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <LayoutGA>
-      <body className="text-white bg-white dark:bg-black dark:text-black">
+      <body className="bg-black text-black">
         <Container>
           <div>
             <Head>
@@ -26,22 +26,22 @@ export default function Home() {
                 <img className="w-64" src="./images/memoji1.png"></img>
               </div>
               <div className="justify-center mx-auto">
-                <h1 className="mb-4 text-3xl font-bold tracking-tight text-black md:text-5xl dark:text-white">
+                <h1 className="mb-4 text-3xl font-bold tracking-tight md:text-5xl text-white">
                   Hey! I'm Jack <span className="emoji-wave">👋</span>
                 </h1>
               </div>
-              <div className="flex justify-center font-semibold mx-auto mb-4 space-x-4 text-gray-700 dark:text-gray-500">
+              <div className="flex justify-center font-semibold mx-auto mb-4 space-x-4 text-gray-500">
                 Software Engineer
               </div>
-              <h2 className="mb-2 text-lg text-gray-700 font-semibold dark:text-gray-500 text-center mx-auto">
+              <h2 className="mb-2 text-lg font-semiboldtext-gray-500 text-center mx-auto">
                 I'm a Front-End Developer based in Liverpool, England. I
                 have been coding for 2 years and have been using React
                 for just over 1 year.
               </h2>
-              <h2 className="mb-2 text-gray-700 font-semibold dark:text-gray-500 text-center mx-auto">
+              <h2 className="mb-2 font-semibold text-gray-500 text-center mx-auto">
                 · · ·
               </h2>
-              <h2 className="mb-24 text-lg text-gray-700 font-semibold dark:text-gray-500 text-center mx-auto">
+              <h2 className="mb-24 text-lg font-semibold text-gray-500 text-center mx-auto">
                 Reach me via email at <a href="mailto:jacklatimer03@gmail.com" className="underline">jacklatimer03@gmail.com</a>
               </h2>
               <Projects />

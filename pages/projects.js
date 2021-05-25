@@ -34,10 +34,10 @@ export default function project() {
         />
         <div className="flex flex-col items-start justify-center max-w-2xl mx-auto mb-16">
           <section id="projects">
-            <h3 className="mb-4 text-3xl font-bold tracking-tight text-black md:text-5xl dark:text-white">
+            <h3 className="mb-4 text-3xl font-bold tracking-tight md:text-5xl text-white">
               Projects
             </h3>
-            <h2 className="mb-10 text-gray-600 dark:text-gray-400">
+            <h2 className="mb-10 text-gray-400">
               My best projects that I have been working on for the past year.
               Click on the project titles to learn more about them.
             </h2>
@@ -62,17 +62,15 @@ export default function project() {
                   />
                   <div className="flex flex-col w-full mx-1 my-3 space-y-3 overflow-auto md:w-5/12 ">
                     <a href={project.url}>
-                      <h3 className="text-lg font-bold text-black uppercase dark:text-white">
+                      <h3 className="text-lg font-bold  uppercase text-white">
                         {project.title}
                       </h3>
                     </a>
-                    <p className="text-black dark:text-gray-500">
-                      {project.description}
-                    </p>
+                    <p className="text-gray-500">{project.description}</p>
                     <div className="flex pb-2 space-x-3 overflow-auto">
                       {project.tools.map((disc, index) => (
                         <span
-                          className="flex px-2 py-1 text-sm text-black border border-gray-500 rounded-lg dark:text-gray-500 "
+                          className="flex px-2 py-1 text-sm border border-gray-500 rounded-lg text-gray-500 "
                           key={index}
                         >
                           {disc}
