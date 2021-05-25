@@ -33,7 +33,7 @@ export default function Home() {
               <div className="flex justify-center font-semibold mx-auto mb-4 space-x-4 text-gray-500">
                 Software Engineer
               </div>
-              <h2 className="mb-2 text-lg font-semiboldtext-gray-500 text-center mx-auto">
+              <h2 className="mb-2 text-lg font-semibold text-gray-500 text-center mx-auto">
                 I'm a Front-End Developer based in Liverpool, England. I
                 have been coding for 2 years and have been using React
                 for just over 1 year.
