@@ -46,7 +46,7 @@ const Project = () => {
                 <div className="flex pb-2 space-x-3 overflow-auto">
                   {project.tools.map((disc, index) => (
                     <span
-                      className="flex px-2 py-1 text-sm border border-gray-500 rounded-lg text-gray-500"
+                      className="flex px-2 py-1 text-sm border border-gray-600 rounded-lg text-gray-500"
                       key={index}
                     >
                       {disc}
@@ -64,7 +64,7 @@ const Project = () => {
                       <svg className="w-8 h-7" viewBox="0 0 24 24">
                         <g
                           fill="none"
-                          stroke="currentColor"
+                          stroke="#4c4c4c"
                           strokeWidth="2"
                           strokeLinecap="round"
                           strokeLinejoin="round"
