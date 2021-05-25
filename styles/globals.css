@@ -36,11 +36,11 @@ html {
 }
 
 .prose pre {
-  @apply bg-gray-50 border border-gray-200 dark:border-gray-700 dark:bg-gray-900;
+  @apply border border-gray-200 bg-gray-900;
 }
 
 .prose code {
-  @apply text-gray-800 dark:text-gray-200 px-1 py-0.5 border border-gray-100 dark:border-gray-800 rounded-md bg-gray-100 dark:bg-gray-900;
+  @apply text-gray-200 px-1 py-0.5 border border-gray-800 rounded-md bg-gray-900;
 }
 
 .prose img {
@@ -52,11 +52,11 @@ html {
 .token.prolog,
 .token.doctype,
 .token.cdata {
-  @apply text-gray-700 dark:text-gray-300;
+  @apply text-gray-300;
 }
 
 .token.punctuation {
-  @apply text-gray-700 dark:text-gray-300;
+  @apply text-gray-300;
 }
 
 .token.property,
@@ -105,7 +105,7 @@ html {
 
 code[class*="language-"],
 pre[class*="language-"] {
-  @apply text-gray-800 dark:text-gray-50;
+  @apply text-gray-50;
 }
 
 pre::-webkit-scrollbar {
@@ -118,7 +118,7 @@ pre {
 }
 
 .remark-code-title {
-  @apply text-gray-800 dark:text-gray-200 px-5 py-3 border border-b-0 border-gray-200 dark:border-gray-700 rounded-t bg-gray-200 dark:bg-gray-800 text-sm font-mono font-bold;
+  @apply text-gray-200 px-5 py-3 border border-b-0 border-gray-700 rounded-t bg-gray-800 text-sm font-mono font-bold;
 }
 
 .remark-code-title + pre {
@@ -126,7 +126,7 @@ pre {
 }
 
 .mdx-marker {
-  @apply block -mx-4 px-4 bg-gray-100 dark:bg-gray-800 border-l-4 border-blue-500;
+  @apply block -mx-4 px-4 bg-gray-800 border-l-4 border-blue-500;
 }
 
 /* Remove Safari input shadow on mobile */
@@ -169,11 +169,11 @@ input[type="email"] {
 }
 
 .future {
-  @apply text-black dark:text-gray-600;
+  @apply text-gray-600;
 }
 
 .past {
-  @apply text-gray-400 dark:text-gray-600;
+  @apply text-gray-600;
 }
 
 .footer-typing {
