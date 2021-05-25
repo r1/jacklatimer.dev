@@ -19,7 +19,7 @@ const Project = () => {
         <h3 className="text-2xl font-bold tracking-tight md:text-4xl mb-11 text-white">
           Projects
         </h3>
-        <div className="my-5 space-y-14">
+        <div className="mb-14 space-y-14">
           {projects.map((project, index) => (
             <article
               className="flex flex-wrap md:justify-between md:items-center"
