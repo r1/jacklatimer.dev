@@ -3,7 +3,7 @@ import projects from "@/components/Project/ProjectList";
 
 const ExternalLink = ({ href, children }) => (
   <a
-    className="text-gray-700 transition hover:text-gray-500"
+    className="transition text-gray-500"
     target="_blank"
     rel="noopener noreferrer"
     href={href}
@@ -16,7 +16,7 @@ const Project = () => {
   return (
     <>
       <section id="projects">
-        <h3 className="text-2xl font-bold tracking-tight text-black md:text-4xl dark:text-white">
+        <h3 className="text-2xl font-bold tracking-tight md:text-4xltext-white">
           Projects
         </h3>
         <div className="my-5 space-y-14">
@@ -36,17 +36,17 @@ const Project = () => {
               />
               <div className="flex flex-col w-full mx-1 my-3 space-y-3 overflow-auto md:w-5/12 ">
                 <a href={project.url}>
-                  <h3 className="text-lg font-bold text-black uppercase dark:text-white">
+                  <h3 className="text-lg font-bold uppercase text-white">
                     {project.title}
                   </h3>
                 </a>
-                <p className="text-black dark:text-gray-600">
+                <p className="text-gray-600">
                   {project.description}
                 </p>
                 <div className="flex pb-2 space-x-3 overflow-auto">
                   {project.tools.map((disc, index) => (
                     <span
-                      className="flex px-2 py-1 text-sm text-black border border-gray-500 rounded-lg dark:text-gray-500"
+                      className="flex px-2 py-1 text-sm border border-gray-500 rounded-lg text-gray-500"
                       key={index}
                     >
                       {disc}

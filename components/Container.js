@@ -1,11 +1,8 @@
 import { useState, useEffect } from "react";
-import { useTheme } from "next-themes";
 import NextLink from "next/link";
-import Footer from "./Footer";
 
-export default function Container({ children, dir, pos, atHome, isMobile }) {
+export default function Container({ children }) {
   const [mounted, setMounted] = useState(false);
-  const { theme, setTheme } = useTheme();
 
   useEffect(() => setMounted(true), []);
 

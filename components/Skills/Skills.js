@@ -4,14 +4,12 @@ import { skills } from "./List";
 import { makeStyles } from "@material-ui/core/styles";
 import Image from "next/image";
 
-// Styles override
 const useStyles = makeStyles({
   root: {
     color: "white",
   },
 });
 
-// Sections with my skills displayed
 function Skills() {
   const classes = useStyles();
 

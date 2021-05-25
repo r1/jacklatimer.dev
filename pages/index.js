@@ -9,7 +9,7 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <LayoutGA>
-      <body className="bg-black text-black">
+      <body className="bg-black text-white">
         <Container>
           <div>
             <Head>
@@ -34,15 +34,18 @@ export default function Home() {
                 Software Engineer
               </div>
               <h2 className="mb-2 text-lg font-semibold text-gray-500 text-center mx-auto">
-                I'm a Front-End Developer based in Liverpool, England. I
-                have been coding for 2 years and have been using React
-                for just over 1 year.
+                I'm a Front-End Developer based in Liverpool, England. I have
+                been coding for 2 years and have been using React for just over
+                1 year.
               </h2>
               <h2 className="mb-2 font-semibold text-gray-500 text-center mx-auto">
                 · · ·
               </h2>
               <h2 className="mb-24 text-lg font-semibold text-gray-500 text-center mx-auto">
-                Reach me via email at <a href="mailto:jacklatimer03@gmail.com" className="underline">jacklatimer03@gmail.com</a>
+                Reach me via email at{" "}
+                <a href="mailto:jacklatimer03@gmail.com" className="underline">
+                  jacklatimer03@gmail.com
+                </a>
               </h2>
               <Projects />
               <Skills />
