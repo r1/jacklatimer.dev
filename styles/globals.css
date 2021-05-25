@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+body::-webkit-scrollbar {
+  width: 1em;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 3px rgb(29, 29, 29);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(39, 39, 39);
+  outline: 1px solid rgb(33, 34, 34);
+}
+
 ::-moz-selection {
   background: rgba(73, 5, 186, 0.99);
   color: #000000;
