@@ -6,17 +6,6 @@ import { NextSeo } from "next-seo";
 import LayoutGA from "@/components/LayoutGA";
 import Footer from "@/components/Footer";
 
-const ExternalLink = ({ href, children }) => (
-  <a
-    className="text-gray-700 transition hover:text-gray-500"
-    target="_blank"
-    rel="noopener noreferrer"
-    href={href}
-  >
-    {children}
-  </a>
-);
-
 export default function Home() {
   return (
     <LayoutGA>
