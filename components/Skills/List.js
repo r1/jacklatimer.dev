@@ -13,6 +13,10 @@ export const skills = [
   },
   {
     category: "Programming Language",
+    name: "PHP (Learning)",
+  },
+  {
+    category: "Programming Language",
     name: "TypeScript (Learning)",
   },
   {
@@ -38,5 +42,13 @@ export const skills = [
   {
     category: "JavaScript Testing Framework",
     name: "Cypress (Learning)",
+  },
+  {
+    category: "Cloud Platform",
+    name: "Vercel",
+  },
+  {
+    category: "Cloud Computing Platform",
+    name: "AWS (Learning)",
   },
 ];

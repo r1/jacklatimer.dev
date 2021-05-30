@@ -21,7 +21,7 @@ export default function project() {
           <h3 className="mb-4 text-3xl font-bold tracking-tight md:text-5xl text-white">
             NINE4
           </h3>
-          <h2 className="mb-10 text-gray-400"></h2>
+          <h2 className="mb-10 text-gray-400">nine4.app is an template website that provides SEO ready Next.js templates with quick setup and ease of use.</h2>
           <img src="./images/nine4.webp"></img>
           <h2 className="mt-5 mb-10 space-x-4 text-gray-400"></h2>
         </div>
