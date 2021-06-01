@@ -34,9 +34,6 @@ export default function NotFound() {
             <NextLink href="/projects">
               <a className="p-1 sm:p-4 text-gray-100">Projects</a>
             </NextLink>
-            <NextLink href="/jacklatimer.pdf">
-              <a className="p-1  sm:p-4 text-gray-100">CV</a>
-            </NextLink>
           </div>
         </nav>
       </header>
