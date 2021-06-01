@@ -30,18 +30,18 @@ export default function Home() {
                   Hey! I'm Jack <span className="emoji-wave">👋</span>
                 </h1>
               </div>
-              <div className="flex justify-center font-semibold mx-auto mb-4 space-x-4 text-gray-500">
+              <div className="flex justify-center font-semibold mx-auto mb-4 space-x-4 text-gray-600">
                 Front End Developer
               </div>
-              <h2 className="mb-2 text-lg font-semibold text-gray-500 text-center mx-auto">
+              <h2 className="mb-2 text-lg font-semibold text-gray-600 text-center mx-auto">
                 I'm a Front-End Developer based in Liverpool, England. I have
                 been coding for 2 years and have been using React for just over
                 1 year.
               </h2>
-              <h2 className="mb-2 font-semibold text-gray-500 text-center mx-auto">
+              <h2 className="mb-2 font-semibold text-gray-600 text-center mx-auto">
                 · · ·
               </h2>
-              <h2 className="mb-24 text-lg font-semibold text-gray-500 text-center mx-auto">
+              <h2 className="mb-24 text-lg font-semibold text-gray-600 text-center mx-auto">
                 Reach me via email at{" "}
                 <a href="mailto:jacklatimer03@gmail.com" className="underline">
                   jacklatimer03@gmail.com
