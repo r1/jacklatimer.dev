@@ -1,7 +1,7 @@
 const projects = [
   {
     title: "CSSBUTTONS.APP",
-    image: "./images/cssbuttons",
+    image: "./images/cssbuttonsv2",
     description:
       "cssbuttons.app is an MIT-licensed open source project full of pure CSS & HTML buttons for developers built-in React with over 10,000 views since launch.",
     tools: ["React", "Vercel"],
