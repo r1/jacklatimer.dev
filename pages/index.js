@@ -23,7 +23,7 @@ export default function Home() {
             />
             <div className="flex flex-col items-start justify-center max-w-2xl mx-auto mb-16">
               <div className="mb-2 justify-center mx-auto">
-                <img className="w-64" src="./images/memoji1.png"></img>
+                <img className="w-64" src="./images/memoji.png"></img>
               </div>
               <div className="justify-center mx-auto">
                 <h1 className="mb-4 text-3xl font-bold tracking-tight md:text-5xl text-white">

@@ -39,7 +39,6 @@ export default function project() {
             </h3>
             <h2 className="mb-10 text-gray-400">
               My best projects that I have been working on for the past year.
-              Click on the project titles to learn more about them.
             </h2>
             <div className="my-5 space-y-14">
               {projects.map((project, index) => (
