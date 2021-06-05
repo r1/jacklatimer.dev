@@ -10,8 +10,8 @@ export default function Container({ children }) {
     <div className="bg-black">
       <header>
         <nav className="z-0 flex items-center justify-between w-full max-w-4xl p-8 mx-auto my-0  sticky-nav md-auto bg-black">
-          <a className="p-1 text-lg font-bold sm:p-4 text-gray-100">
-            J
+          <a href="/" className="p-1 text-3xl font-bold sm:p-4 text-gray-100">
+            JL
           </a>
           <div>
             <NextLink href="/">
