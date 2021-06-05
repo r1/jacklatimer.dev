@@ -8,6 +8,10 @@ export const skills = [
     name: "CSS3",
   },
   {
+    category: "CSS Preprocessor",
+    name: "Sass",
+  },
+  {
     category: "CSS Framework",
     name: "Tailwind CSS",
   },
@@ -50,5 +54,13 @@ export const skills = [
   {
     category: "Cloud Computing Platform",
     name: "AWS (Learning)",
+  },
+  {
+    category: "JavaScript Module Bundler",
+    name: "Webpack",
+  },
+  {
+    category: "JavaScript Toolkit",
+    name: "gulp.js",
   },
 ];
