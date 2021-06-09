@@ -21,7 +21,7 @@ export const skills = [
   },
   {
     category: "Programming Language",
-    name: "TypeScript (Learning)",
+    name: "TypeScript (Currently Learning)",
   },
   {
     category: "Programming Language",
@@ -45,22 +45,10 @@ export const skills = [
   },
   {
     category: "JavaScript Testing Framework",
-    name: "Cypress (Learning)",
-  },
-  {
-    category: "Cloud Platform",
-    name: "Vercel",
+    name: "Cypress (Currently Learning)",
   },
   {
     category: "Cloud Computing Platform",
     name: "AWS (Learning)",
-  },
-  {
-    category: "JavaScript Module Bundler",
-    name: "Webpack",
-  },
-  {
-    category: "JavaScript Toolkit",
-    name: "gulp.js",
   },
 ];
