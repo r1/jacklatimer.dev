@@ -5,7 +5,6 @@ Tech Stack: Next.js / React, Tailwind CSS
 <img src="./img/main_page.png"></img>
 <img src="./img/main_page2.png"></img>
 <img src="./img/main_page3.png"></img>
-<img src="./img/cssbuttons.png"></img>
 </div>
 
 
