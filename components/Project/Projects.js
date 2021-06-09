@@ -35,7 +35,7 @@ const Project = () => {
                 }
               />
               <div className="flex flex-col w-full mx-1 my-3 space-y-3 overflow-auto md:w-5/12 ">
-                <a href={project.url}>
+                <a>
                   <h3 className="text-lg font-bold uppercase text-white">
                     {project.title}
                   </h3>
