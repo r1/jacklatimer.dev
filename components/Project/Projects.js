@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import projects from "@/components/Project/ProjectList";
 
 const ExternalLink = ({ href, children }) => (
@@ -40,9 +41,7 @@ const Project = () => {
                     {project.title}
                   </h3>
                 </a>
-                <p className="text-gray-600">
-                  {project.description}
-                </p>
+                <p className="text-gray-600">{project.description}</p>
                 <div className="flex pb-2 space-x-3 overflow-auto">
                   {project.tools.map((disc, index) => (
                     <span
@@ -76,8 +75,8 @@ const Project = () => {
                   </div>
                   <div className="relative flex w-auto">
                     <a href={project.link} target="_blank" rel="noreferrer">
-                      <img
-                        src="./images/external-link.svg"
+                      <Image
+                        src="/images/external-link.svg"
                         alt="Link to live website"
                         width="27px"
                         height="27px"
