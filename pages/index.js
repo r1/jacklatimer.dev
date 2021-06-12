@@ -11,13 +11,13 @@ import Imagedata from "@/utils/data";
 
 
 export default function Home() {
-  const [videos, setVideos] = useState([]);
+  const [images, setImages] = useState([]);
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     setLoading(true);
     const timer = setTimeout(() => {
-      setVideos(Imagedata);
+      setImages(Imagedata);
       setLoading(false);
     }, 1000);
 
@@ -41,7 +41,7 @@ export default function Home() {
             <div className="flex flex-col items-start justify-center max-w-2xl mx-auto mb-16">
               {loading && <SkeletonCard />}
               {!loading &&
-                videos.map(() => {
+                images.map(() => {
                   return (
                     <div className="mb-2 justify-center mx-auto">
                       <img className="w-64" src="./images/memoji.png"></img>
