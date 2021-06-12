@@ -6,9 +6,8 @@ import Projects from "@/components/Project/Projects";
 import { NextSeo } from "next-seo";
 import LayoutGA from "@/components/LayoutGA";
 import Footer from "@/components/Footer";
-import SkeletonCard from "@/components/SkeletonCard";
 import Imagedata from "@/utils/data";
-
+import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 
 export default function Home() {
   const [images, setImages] = useState([]);
@@ -19,7 +18,7 @@ export default function Home() {
     const timer = setTimeout(() => {
       setImages(Imagedata);
       setLoading(false);
-    }, 1000);
+    }, 2000);
 
     return () => clearTimeout(timer);
   }, []);
@@ -39,7 +38,17 @@ export default function Home() {
               description="Front-End React Developer Based In Liverpool, England"
             />
             <div className="flex flex-col items-start justify-center max-w-2xl mx-auto mb-16">
-              {loading && <SkeletonCard />}
+              {loading && (
+                <div className="flex flex-col items-start justify-center max-w-2xl mx-auto mb-16 pr-5">
+                <SkeletonTheme color="#040404" highlightColor="#050505">
+                  {Array(1)
+                    .fill()
+                    .map(() => (
+                      <Skeleton duration={1} height={300} width={300} />
+                    ))}
+                </SkeletonTheme>
+                </div>
+              )}
               {!loading &&
                 images.map(() => {
                   return (
