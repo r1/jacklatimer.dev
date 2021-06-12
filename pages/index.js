@@ -37,14 +37,14 @@ export default function Home() {
               title="Jack Latimer - Home"
               description="Front-End React Developer Based In Liverpool, England"
             />
-            <div className="flex flex-col  items-start justify-center max-w-2xl mx-auto mb-16">
+            <div className="flex flex-col items-start justify-center max-w-2xl mx-auto mb-16">
               {loading && (
-                <div className="flex flex-col items-start justify-center max-w-2xl mx-auto mb-16 pr-5">
+                <div className="flex flex-col items-start h-56 justify-center max-w-2xl mx-auto mb-16 pr-5">
                   <SkeletonTheme color="#040404" highlightColor="#050505">
                     {Array(1)
                       .fill()
                       .map(() => (
-                        <Skeleton height={250} width={300} />
+                        <Skeleton height={221} width={300} />
                       ))}
                   </SkeletonTheme>
                 </div>
