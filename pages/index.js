@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from "react";
 import Head from "next/head";
 import Container from "@/components/Container";
 import Skills from "@/components/Skills/Skills";
@@ -6,23 +5,8 @@ import Projects from "@/components/Project/Projects";
 import { NextSeo } from "next-seo";
 import LayoutGA from "@/components/LayoutGA";
 import Footer from "@/components/Footer";
-import Imagedata from "@/utils/data";
-import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 
 export default function Home() {
-  const [images, setImages] = useState([]);
-  const [loading, setLoading] = useState(false);
-
-  useEffect(() => {
-    setLoading(true);
-    const timer = setTimeout(() => {
-      setImages(Imagedata);
-      setLoading(false);
-    }, 2000);
-
-    return () => clearTimeout(timer);
-  }, []);
-
   return (
     <LayoutGA>
       <body className="bg-black text-white">
@@ -38,25 +22,9 @@ export default function Home() {
               description="Front-End React Developer Based In Liverpool, England"
             />
             <div className="flex flex-col items-start justify-center max-w-2xl mx-auto mb-16">
-              {loading && (
-                <div className="flex flex-col items-start h-56 justify-center max-w-2xl mx-auto mb-16 pr-5">
-                  <SkeletonTheme color="#040404" highlightColor="#050505">
-                    {Array(1)
-                      .fill()
-                      .map(() => (
-                        <Skeleton height={221} width={300} />
-                      ))}
-                  </SkeletonTheme>
-                </div>
-              )}
-              {!loading &&
-                images.map(() => {
-                  return (
-                    <div className="mb-2 justify-center mx-auto">
-                      <img className="w-64" src="./images/memoji.png"></img>
-                    </div>
-                  );
-                })}
+              <div className="mb-2 justify-center mx-auto">
+                <img className="w-64" src="./images/memoji.png"></img>
+              </div>
               <div className="justify-center mx-auto">
                 <h1 className="mb-4 text-3xl font-bold tracking-tight md:text-5xl text-white">
                   Hey! I'm Jack <span className="emoji-wave">👋</span>
