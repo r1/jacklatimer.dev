@@ -40,8 +40,8 @@ export const skills = [
     name: "Jest (Learning)",
   },
   {
-    category: "JavaScript Testing Framework",
-    name: "Storybook (Learning)",
+    category: "Building UI Components",
+    name: "Storybook",
   },
   {
     category: "Cloud Computing Platform",
