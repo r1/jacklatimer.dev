@@ -8,6 +8,10 @@ export const skills = [
     name: "CSS3",
   },
   {
+    category: "React Styling Library",
+    name: "Styled-components",
+  },
+  {
     category: "CSS Preprocessor",
     name: "Sass",
   },
@@ -17,7 +21,7 @@ export const skills = [
   },
   {
     category: "Programming Language",
-    name: "TypeScript (Currently Learning)",
+    name: "TypeScript (Learning)",
   },
   {
     category: "Programming Language",
@@ -36,15 +40,7 @@ export const skills = [
     name: "Git",
   },
   {
-    category: "JavaScript Testing Framework",
-    name: "Jest (Learning)",
-  },
-  {
     category: "Building UI Components",
     name: "Storybook",
-  },
-  {
-    category: "Cloud Computing Platform",
-    name: "AWS (Learning)",
   },
 ];
