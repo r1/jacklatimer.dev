@@ -43,4 +43,12 @@ export const skills = [
     category: "Building UI Components",
     name: "Storybook",
   },
+  {
+    category: "Package Manager",
+    name: "npm",
+  },
+  {
+    category: "Package Manager",
+    name: "Yarn",
+  },
 ];
