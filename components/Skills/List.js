@@ -12,10 +12,6 @@ export const skills = [
     name: "Styled-components",
   },
   {
-    category: "CSS Preprocessor",
-    name: "Sass",
-  },
-  {
     category: "CSS Framework",
     name: "Tailwind CSS",
   },
@@ -46,9 +42,5 @@ export const skills = [
   {
     category: "Package Manager",
     name: "npm",
-  },
-  {
-    category: "Package Manager",
-    name: "Yarn",
   },
 ];
