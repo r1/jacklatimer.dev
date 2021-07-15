@@ -9,7 +9,7 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <LayoutGA>
-      <body className="bg-black text-white">
+      <body className="text-white bg-black">
         <Container>
           <div>
             <Head>
@@ -22,26 +22,26 @@ export default function Home() {
               description="Front-End React Developer Based In Liverpool, England"
             />
             <div className="flex flex-col items-start justify-center max-w-2xl mx-auto mb-16">
-              <div className="mb-2 justify-center mx-auto">
+              <div className="justify-center mx-auto mb-2">
                 <img className="w-64" src="./images/memoji.png"></img>
               </div>
               <div className="justify-center mx-auto">
-                <h1 className="mb-4 text-3xl font-bold tracking-tight md:text-5xl text-white">
+                <h1 className="mb-4 text-3xl font-bold tracking-tight text-white md:text-5xl">
                   Hey! I'm Jack <span className="emoji-wave">👋</span>
                 </h1>
               </div>
-              <div className="flex justify-center font-semibold mx-auto mb-4 space-x-4 text-gray-600">
+              <div className="flex justify-center mx-auto mb-4 space-x-4 font-semibold text-gray-500">
                 Front End Developer
               </div>
-              <h2 className="mb-2 text-lg font-semibold text-gray-600 text-center mx-auto">
+              <h2 className="mx-auto mb-2 text-lg font-semibold text-center text-gray-500">
                 I'm a Front-End Developer based in Liverpool, England. I have
                 been coding for 2 years and have been using React for just over
                 1 year.
               </h2>
-              <h2 className="mb-2 font-semibold text-gray-600 text-center mx-auto">
+              <h2 className="mx-auto mb-2 font-semibold text-center text-gray-500">
                 · · ·
               </h2>
-              <h2 className="mb-24 text-lg font-semibold text-gray-600 text-center mx-auto">
+              <h2 className="mx-auto mb-24 text-lg font-semibold text-center text-gray-500">
                 Reach me via email at{" "}
                 <a href="mailto:jacklatimer03@gmail.com" className="underline">
                   jacklatimer03@gmail.com
