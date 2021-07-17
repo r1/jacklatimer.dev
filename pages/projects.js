@@ -60,11 +60,11 @@ export default function project() {
                     }
                   />
                   <div className="flex flex-col w-full mx-1 my-3 space-y-3 overflow-auto md:w-5/12 ">
-                    <a href={project.url}>
+                    <h2>
                       <h3 className="text-lg font-bold  uppercase text-white">
                         {project.title}
                       </h3>
-                    </a>
+                    </h2>
                     <p className="text-gray-500">{project.description}</p>
                     <div className="flex pb-2 space-x-3 overflow-auto">
                       {project.tools.map((disc, index) => (
