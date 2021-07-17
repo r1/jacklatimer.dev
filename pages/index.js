@@ -9,7 +9,6 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <LayoutGA>
-      <body className="text-white bg-black">
         <Container>
           <div>
             <Head>
@@ -34,7 +33,7 @@ export default function Home() {
                 Front End Developer
               </div>
               <h2 className="mx-auto mb-2 text-lg font-semibold text-center text-gray-500">
-                I'm a Front-End Developer based in Liverpool, England. I have
+                I'm a Frontend Developer based in Liverpool, England. I have
                 been coding for 2 years and have been using React for just over
                 1 year.
               </h2>
@@ -53,7 +52,6 @@ export default function Home() {
           </div>
         </Container>
         <Footer />
-      </body>
     </LayoutGA>
   );
 }
