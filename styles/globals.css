@@ -2,37 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  min-width: 360px;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #10222e;
+}
+
 body::-webkit-scrollbar {
-  width: 1em;
+  width: 0.8em;
 }
- 
+
 body::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 3px rgb(29, 29, 29);
+  box-shadow: inset 0 0 2px rgb(29, 29, 29);
 }
- 
+
 body::-webkit-scrollbar-thumb {
-  background-color: rgb(39, 39, 39);
-  outline: 1px solid rgb(33, 34, 34);
+  background-color: #e0dcc1;
+  outline: 1px solid #e0dcc1;
 }
 
 ::-moz-selection {
-  background: rgba(73, 5, 186, 0.99);
+  background: #e0dcc1;
   color: #000000;
 }
 
 ::-webkit-selection {
-  background: rgba(73, 5, 186, 0.99);
+  background: #e0dcc1;
   color: #000000;
 }
 
 ::selection {
-  background: rgba(73, 5, 186, 0.99);
+  background: #e0dcc1;
   color: #ffffff;
-}
-
-html {
-  min-width: 360px;
-  scroll-behavior: smooth;
 }
 
 #__next {
@@ -44,11 +48,7 @@ html {
 .sticky-nav {
   position: sticky;
   top: 0;
-  backdrop-filter: saturate(180%) blur(20px);
-  transition: background-color 0.1 ease-in-out;
 }
-
-
 
 .emoji-wave {
   animation-name: wave-animation;
@@ -83,4 +83,13 @@ html {
   100% {
     transform: rotate(0deg);
   }
+}
+
+.cream {
+  color: #dad5b8;
+}
+
+.border-cream {
+  --tw-border-opacity: 1;
+  border-color: #e0dcc1;
 }

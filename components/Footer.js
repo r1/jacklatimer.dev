@@ -1,6 +1,6 @@
 const ExternalLink = ({ href, children }) => (
   <a
-    className="text-gray-600 hover:text-gray-700 transition"
+    className="text-white hover:text-gray-200 transition"
     target="_blank"
     rel="noopener noreferrer"
     href={href}
@@ -12,7 +12,7 @@ const ExternalLink = ({ href, children }) => (
 export default function Footer() {
   return (
     <footer className="flex flex-col items-center mb-8">
-      <div className="flex text-white space-x-4">
+      <div className="flex space-x-4">
         <ExternalLink href="https://github.com/r1">GitHub</ExternalLink>
         <ExternalLink href="https://www.linkedin.com/in/jacklatimer">
           Linkedin

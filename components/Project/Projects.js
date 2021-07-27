@@ -4,7 +4,7 @@ import projects from "@/components/Project/ProjectList";
 
 const ExternalLink = ({ href, children }) => (
   <a
-    className="transition text-gray-500"
+    className="transition cream"
     target="_blank"
     rel="noopener noreferrer"
     href={href}
@@ -16,13 +16,13 @@ const ExternalLink = ({ href, children }) => (
 const Project = () => {
   return (
     <>
-      <section id="projects">
-        <h3 className="text-2xl font-bold tracking-tight md:text-4xl mb-11 text-white">
+      <section id="cream projects">
+        <h3 className="text-2xl font-bold tracking-tight md:text-4xl mb-11">
           Projects
         </h3>
         <div className="mb-14 space-y-14">
           {projects.map((project, index) => (
-            <article
+            <div
               className="flex flex-wrap md:justify-between md:items-center"
               key={index}
             >
@@ -35,17 +35,17 @@ const Project = () => {
                     : "w-full h-full md:w-6/12 rounded-lg shadow-lg md:order-1"
                 }
               />
-              <div className="flex flex-col w-full mx-1 my-3 space-y-3 overflow-auto md:w-5/12 ">
+              <div className="flex flex-col w-full mx-1 my-3 space-y-3 overflow-auto md:w-5/12">
                 <a>
-                  <h3 className="text-lg font-bold uppercase text-white">
+                  <h3 className="text-lg font-bold uppercase">
                     {project.title}
                   </h3>
                 </a>
-                <p className="text-gray-600">{project.description}</p>
+                <p className="text-gray-500">{project.description}</p>
                 <div className="flex pb-2 space-x-3 overflow-auto">
                   {project.tools.map((disc, index) => (
                     <span
-                      className="flex px-2 py-1 text-sm border border-gray-600 rounded-lg text-gray-500"
+                      className="text-gray-500 flex px-2 py-1 text-sm border border-gray-500 rounded-lg"
                       key={index}
                     >
                       {disc}
@@ -63,7 +63,7 @@ const Project = () => {
                       <svg className="w-8 h-7" viewBox="0 0 24 24">
                         <g
                           fill="none"
-                          stroke="#4c4c4c"
+                          stroke="#888a8c"
                           strokeWidth="2"
                           strokeLinecap="round"
                           strokeLinejoin="round"
@@ -73,7 +73,7 @@ const Project = () => {
                       </svg>
                     </ExternalLink>
                   </div>
-                  <div className="relative flex w-auto">
+                  <div className="text-gray-500 relative flex w-auto">
                     <a href={project.link} target="_blank" rel="noreferrer">
                       <Image
                         src="/images/external-link.svg"
@@ -85,7 +85,7 @@ const Project = () => {
                   </div>
                 </div>
               </div>
-            </article>
+            </div>
           ))}
         </div>
       </section>

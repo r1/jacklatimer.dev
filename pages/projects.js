@@ -38,7 +38,7 @@ export default function project() {
               Projects
             </h3>
             <h2 className="mb-10 text-gray-400">
-              My best projects that I have been working on for the past year.
+              My best projects that I have been working on. 😎
             </h2>
             <div className="my-5 space-y-14">
               {projects.map((project, index) => (
@@ -69,7 +69,7 @@ export default function project() {
                     <div className="flex pb-2 space-x-3 overflow-auto">
                       {project.tools.map((disc, index) => (
                         <span
-                          className="flex px-2 py-1 text-sm border border-gray-500 rounded-lg text-gray-500 "
+                          className="flex px-2 py-1 text-sm border border-gray-500 rounded-lg text-gray-500"
                           key={index}
                         >
                           {disc}
@@ -87,7 +87,7 @@ export default function project() {
                           <svg className="w-8 h-7" viewBox="0 0 24 24">
                             <g
                               fill="none"
-                              stroke="currentColor"
+                              stroke="#888a8c"
                               strokeWidth="2"
                               strokeLinecap="round"
                               strokeLinejoin="round"
