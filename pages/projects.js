@@ -22,7 +22,7 @@ export default function project() {
       <Container>
         <Head>
           <title>jacklatimer.dev</title>
-          <link rel="icon" href="./favicon.png" />
+          <link rel="icon" href="./favicon.ico" />
           <meta
             name="keywords"
             content="Jack Latimer, Jack Latimer Projects, Portfolio project, r1"

@@ -13,12 +13,12 @@ export default function Home() {
           <div>
             <Head>
               <title>jacklatimer.dev</title>
-              <link rel="icon" href="./favicon.png" />
+              <link rel="icon" href="./favicon.ico" />
               <meta name="keywords" content="Jack Latimer, r1"></meta>
             </Head>
             <NextSeo
               title="Jack Latimer - Home"
-              description="Front-End React Developer Based In Liverpool, England"
+              description="Front-End Developer Based In Liverpool, England"
             />
             <div className="flex flex-col items-start justify-center max-w-2xl mx-auto mb-16">
               <div className="justify-center mx-auto mb-2">

@@ -1,18 +1,8 @@
 import React from "react";
 import Grid from "@material-ui/core/Grid";
 import { skills } from "./List";
-import { makeStyles } from "@material-ui/core/styles";
-import Image from "next/image";
-
-const useStyles = makeStyles({
-  root: {
-    color: "white",
-  },
-});
 
 function Skills() {
-  const classes = useStyles();
-
   return (
     <section id="skills">
       <h3 className="text-2xl font-bold tracking-tight md:text-4xl mb-11 text-white">
@@ -40,8 +30,8 @@ function Skills() {
                 >
                   <Grid container direction="row" spacing={2}>
                     <Grid item>
-                        <h2 className="text-white">{i.name}</h2>
-                        <h3 style={{ color: "#999" }}>{i.category}</h3>
+                      <h2 className="text-white">{i.name}</h2>
+                      <h3 style={{ color: "#999" }}>{i.category}</h3>
                     </Grid>
                   </Grid>
                 </div>
