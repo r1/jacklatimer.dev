@@ -53,13 +53,13 @@ export default function project() {
                 height="190"
                 className={
                   index % 2 === 0
-                    ? "rounded-lg shadow-lg "
+                    ? "rounded-lg shadow-lg"
                     : "rounded-lg shadow-lg md:order-1"
                 }
               />
                   <div className="flex flex-col w-full mx-1 my-3 space-y-3  md:w-5/12 ">
                     <h2>
-                      <h3 className="text-lg font-bold  uppercase text-white">
+                      <h3 className="text-lg font-bold text-white">
                         {project.title}
                       </h3>
                     </h2>
