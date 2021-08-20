@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Container from "@/components/Container";
 import { NextSeo } from "next-seo";
-import projects from "@/components/Project/ProjectList";
+import projects from "@/components/Projects/ProjectList";
 import LayoutGA from "@/components/LayoutGA";
 import Footer from "@/components/Footer";
 

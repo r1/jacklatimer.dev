@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import projects from "@/components/Project/ProjectList";
+import projects from "@/components/Projects/ProjectList";
 
 const ExternalLink = ({ href, children }) => (
   <a
