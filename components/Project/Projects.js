@@ -39,7 +39,7 @@ const Project = () => {
               />
               <div className="flex flex-col w-full mx-1 my-3 space-y-3  md:w-5/12">
                 <h3 className="text-lg font-bold">{project.title}</h3>
-                <p className="text-gray-700">{project.description}</p>
+                <p className="text-gray-500">{project.description}</p>
                 <div className="flex pb-2 space-x-3">
                   {project.tools.map((disc, index) => (
                     <span
