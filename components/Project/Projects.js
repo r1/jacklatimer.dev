@@ -38,10 +38,8 @@ const Project = () => {
                 }
               />
               <div className="flex flex-col w-full mx-1 my-3 space-y-3  md:w-5/12">
-                <a>
-                  <h3 className="text-lg font-bold">{project.title}</h3>
-                </a>
-                <p className="text-gray-500">{project.description}</p>
+                <h3 className="text-lg font-bold">{project.title}</h3>
+                <p className="text-gray-700">{project.description}</p>
                 <div className="flex pb-2 space-x-3">
                   {project.tools.map((disc, index) => (
                     <span
@@ -74,7 +72,12 @@ const Project = () => {
                     </ExternalLink>
                   </div>
                   <div className="text-gray-500 relative flex w-auto">
-                    <a href={project.link} target="_blank" rel="noreferrer">
+                    <a
+                      href={project.link}
+                      aria-label="External Link"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"

@@ -25,8 +25,8 @@ const projects = [
     description:
       "Coming Soon.",
     tools: ["Next.js"],
-    github: "https://github.com/r1/jacklatimer",
-    link: "https://jacklatimer.dev/",
+    github: "https://github.com/r1/bedrock",
+    link: "https://bedrck.co/",
     url: "/bedrock",
   },
 ];
