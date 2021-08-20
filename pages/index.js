@@ -18,12 +18,9 @@ export default function Home() {
           </Head>
           <NextSeo
             title="Jack Latimer - Home"
-            description="Front-End Developer Based In Liverpool, England"
+            description="Frontend Developer Based In Liverpool, England"
           />
-          <div className="flex flex-col items-start justify-center max-w-2xl mx-auto mb-16">
-            <div className="justify-center mx-auto mb-2">
-              <img className="w-64" src="./images/memoji.png"></img>
-            </div>
+          <div className="flex flex-col items-start max-w-2xl mx-auto mb-16">
             <div className="justify-center mx-auto">
               <h1 className="text-white mb-4 text-3xl font-bold tracking-tight md:text-5xl">
                 Hey! I'm Jack <span className="emoji-wave">👋</span>
@@ -33,12 +30,12 @@ export default function Home() {
               Frontend Developer
             </div>
             <h2 className="text-gray-400 mx-auto mb-2 text-lg font-semibold text-center">
-              Self-taught frontend dev who also likes design. Based in Liverpool, England.
+              Junior Frontend Developer who also likes design. Based in Liverpool, UK.
             </h2>
             <h2 className="text-gray-400 mx-auto mb-2 font-semibold text-center">
               · · ·
             </h2>
-            <h2 className="text-gray-400 mx-auto mb-24 text-lg font-semibold text-center">
+            <h2 className="text-gray-400 mx-auto mb-24 text-lg font-semibold">
               Reach me via email at{" "}
               <a
                 href="mailto:jacklatimer03@gmail.com"

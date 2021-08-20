@@ -16,7 +16,7 @@ const ExternalLink = ({ href, children }) => (
 const Project = () => {
   return (
     <>
-      <section id="cream projects">
+      <section id="projects">
         <h3 className="text-2xl font-bold tracking-tight md:text-4xl mb-11">
           Projects
         </h3>
@@ -29,20 +29,20 @@ const Project = () => {
               <img
                 src={`${project.image}.webp`}
                 alt={project.title}
+                width="340"
+                height="190"
                 className={
                   index % 2 === 0
-                    ? "w-full h-full md:w-6/12 rounded-lg shadow-lg "
-                    : "w-full h-full md:w-6/12 rounded-lg shadow-lg md:order-1"
+                    ? "rounded-lg shadow-lg "
+                    : "rounded-lg shadow-lg md:order-1"
                 }
               />
-              <div className="flex flex-col w-full mx-1 my-3 space-y-3 overflow-auto md:w-5/12">
+              <div className="flex flex-col w-full mx-1 my-3 space-y-3  md:w-5/12">
                 <a>
-                  <h3 className="text-lg font-bold uppercase">
-                    {project.title}
-                  </h3>
+                  <h3 className="text-lg font-bold">{project.title}</h3>
                 </a>
                 <p className="text-gray-500">{project.description}</p>
-                <div className="flex pb-2 space-x-3 overflow-auto">
+                <div className="flex pb-2 space-x-3">
                   {project.tools.map((disc, index) => (
                     <span
                       className="text-gray-500 flex px-2 py-1 text-sm border border-gray-500 rounded-lg"
@@ -63,7 +63,7 @@ const Project = () => {
                       <svg className="w-8 h-7" viewBox="0 0 24 24">
                         <g
                           fill="none"
-                          stroke="#888a8c"
+                          stroke="#4d4d4d"
                           strokeWidth="2"
                           strokeLinecap="round"
                           strokeLinejoin="round"
@@ -75,12 +75,20 @@ const Project = () => {
                   </div>
                   <div className="text-gray-500 relative flex w-auto">
                     <a href={project.link} target="_blank" rel="noreferrer">
-                      <Image
-                        src="/images/external-link.svg"
-                        alt="Link to live website"
-                        width="27px"
-                        height="27px"
-                      />
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        stroke="#4d4d4d"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        class="feather feather-link-2"
+                        className="h-7 w-8"
+                        viewBox="0 0 24 24"
+                      >
+                        <path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3" />
+                        <line x1="8" x2="16" y1="12" y2="12" />
+                      </svg>
                     </a>
                   </div>
                 </div>

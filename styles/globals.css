@@ -5,10 +5,12 @@
 html {
   min-width: 360px;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
-  background-color: #10222e;
+  background-color: #141414;
+  overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {

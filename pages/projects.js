@@ -25,7 +25,7 @@ export default function project() {
           <link rel="icon" href="./favicon.ico" />
           <meta
             name="keywords"
-            content="Jack Latimer, Jack Latimer Projects, Portfolio project, r1"
+            content="Jack Latimer, Jack Latimer Projects, Portfolio project"
           ></meta>
         </Head>
         <NextSeo
@@ -46,27 +46,25 @@ export default function project() {
                   className="flex flex-wrap md:justify-between md:items-center"
                   key={index}
                 >
-                  <img
-                    src={`${project.image}.webp`}
-                    sizes="(min-width: 768px) 50vw, 100vw"
-                    width="068px"
-                    height="575px"
-                    loading="lazy"
-                    alt={project.title}
-                    className={
-                      index % 2 === 0
-                        ? "w-full md:w-6/12 rounded-lg shadow-lg "
-                        : "w-full md:w-6/12 rounded-lg shadow-lg md:order-1"
-                    }
-                  />
-                  <div className="flex flex-col w-full mx-1 my-3 space-y-3 overflow-auto md:w-5/12 ">
+              <img
+                src={`${project.image}.webp`}
+                alt={project.title}
+                width="340"
+                height="190"
+                className={
+                  index % 2 === 0
+                    ? "rounded-lg shadow-lg "
+                    : "rounded-lg shadow-lg md:order-1"
+                }
+              />
+                  <div className="flex flex-col w-full mx-1 my-3 space-y-3  md:w-5/12 ">
                     <h2>
                       <h3 className="text-lg font-bold  uppercase text-white">
                         {project.title}
                       </h3>
                     </h2>
                     <p className="text-gray-500">{project.description}</p>
-                    <div className="flex pb-2 space-x-3 overflow-auto">
+                    <div className="flex pb-2 space-x-3">
                       {project.tools.map((disc, index) => (
                         <span
                           className="flex px-2 py-1 text-sm border border-gray-500 rounded-lg text-gray-500"
@@ -87,7 +85,7 @@ export default function project() {
                           <svg className="w-8 h-7" viewBox="0 0 24 24">
                             <g
                               fill="none"
-                              stroke="#888a8c"
+                              stroke="#4d4d4d"
                               strokeWidth="2"
                               strokeLinecap="round"
                               strokeLinejoin="round"

@@ -6,7 +6,6 @@ import Header from "../components/Container";
 import Footer from "@/components/Footer";
 
 export default function NotFound() {
-
   return (
     <div>
       <NextSeo title="Jack Latimer - 404" description="404" />

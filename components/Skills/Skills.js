@@ -25,7 +25,7 @@ function Skills() {
                     width: "300px",
                     maxHeight: "20rem",
                     padding: "15px",
-                    background: "#09141b",
+                    background: "#191919",
                   }}
                 >
                   <Grid container direction="row" spacing={2}>
