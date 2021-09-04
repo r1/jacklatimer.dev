@@ -35,7 +35,7 @@ export default function Home() {
             <h2 className="text-gray-400 mx-auto mb-2 font-semibold text-center">
               · · ·
             </h2>
-            <h2 className="text-gray-400 mx-auto mb-24 text-lg font-semibold">
+            <h2 className="text-gray-400 mx-auto mb-24 text-lg font-semibold text-center">
               Reach me via email at{" "}
               <a
                 href="mailto:jacklatimer03@gmail.com"

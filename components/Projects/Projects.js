@@ -1,10 +1,9 @@
 import React from "react";
-import Image from "next/image";
 import projects from "@/components/Projects/ProjectList";
 
 const ExternalLink = ({ href, children }) => (
   <a
-    className="transition cream"
+    className="transition"
     target="_blank"
     rel="noopener noreferrer"
     href={href}
@@ -13,7 +12,7 @@ const ExternalLink = ({ href, children }) => (
   </a>
 );
 
-const Project = () => {
+export default function Project() {
   return (
     <>
       <section id="projects">
@@ -102,6 +101,4 @@ const Project = () => {
       </section>
     </>
   );
-};
-
-export default Project;
+}

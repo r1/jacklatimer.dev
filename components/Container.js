@@ -10,10 +10,13 @@ export default function Container({ children }) {
           </a>
           <div>
             <NextLink href="/">
-              <a className="p-1 sm:p-4">Home</a>
+              <a className="p-1 sm:p-4 pr-6">Home</a>
             </NextLink>
             <NextLink href="/projects">
               <a className="p-1 sm:p-4">Projects</a>
+            </NextLink>
+            <NextLink href="https://jacklatimer.design/">
+              <a className="p-1 sm:p-4">Design</a>
             </NextLink>
           </div>
         </nav>
