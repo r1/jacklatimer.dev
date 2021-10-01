@@ -2,7 +2,7 @@ import Link from "next/link";
 import { NextSeo } from "next-seo";
 import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
-import Header from "../components/Container";
+import Header from "../components/Header";
 import Footer from "@/components/Footer";
 
 export default function NotFound() {

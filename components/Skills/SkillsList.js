@@ -1,23 +1,19 @@
 export const skills = [
   {
     category: "Markup Language",
-    name: "HTML5",
+    name: "HTML",
   },
   {
     category: "Styling Language",
-    name: "CSS3",
+    name: "CSS",
   },
   {
     category: "React Styling Library",
-    name: "Styled-components",
+    name: "styled-components",
   },
   {
     category: "CSS Framework",
     name: "Tailwind CSS",
-  },
-  {
-    category: "Programming Language",
-    name: "TypeScript (Learning)",
   },
   {
     category: "Programming Language",
@@ -32,7 +28,11 @@ export const skills = [
     name: "Next.js",
   },
   {
-    category: "Version Control (VCS)",
+    category: "Cloud Computing Services",
+    name: "AWS (Learning)",
+  },
+  {
+    category: "Version Control",
     name: "Git",
   },
   {

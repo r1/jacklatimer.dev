@@ -1,6 +1,6 @@
 import React from "react";
 import Grid from "@material-ui/core/Grid";
-import { skills } from "./List";
+import { skills } from "./SkillsList";
 
 function Skills() {
   return (
