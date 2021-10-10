@@ -1,3 +1,5 @@
+import React from "react";
+
 const ExternalLink = ({ href, children }) => (
   <a
     className="text-white hover:text-gray-200 transition"

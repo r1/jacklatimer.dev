@@ -22,23 +22,23 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #ffffff;
-  outline: 1px solid #ffffff;
+  background-color: #525252;
+  outline: 1px solid #585858;
 }
 
 ::-moz-selection {
-  background: #ffffff;
-  color: #000000;
+  background: #4f4f4f;
+  color: #d0d0d0;
 }
 
 ::-webkit-selection {
-  background: #ffffff;
-  color: #000000;
+  background: #4f4f4f;
+  color: #d0d0d0;
 }
 
 ::selection {
-  background: #ffffff;
-  color: #000000;
+  background: #4f4f4f;
+  color: #d0d0d0;
 }
 
 #__next {

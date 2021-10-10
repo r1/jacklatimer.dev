@@ -5,7 +5,7 @@ import { skills } from "./SkillsList";
 function Skills() {
   return (
     <section id="skills">
-      <h3 className="text-2xl font-bold tracking-tight md:text-4xl mb-11">
+      <h3 className="text-3xl font-bold tracking-tight md:text-4xl sm:mb-11 mb-6 p-4 md:p-4 lg:p-0">
         Technologies & Skills
       </h3>
       <Grid
@@ -18,9 +18,8 @@ function Skills() {
         <Grid container item justify="center" alignItems="center" spacing={3}>
           {skills.map((i) => {
             return (
-              <Grid item key={i.item}>
+              <Grid item>
                 <div
-                  elevation={3}
                   style={{
                     width: "300px",
                     maxHeight: "20rem",
