@@ -11,7 +11,7 @@ function NavItem({ href, text }) {
     <NextLink href={href}>
       <a
         className={cn(
-          isActive ? "font-semibold text-white" : "font-normal text-gray-400 ",
+          isActive ? "font-semibold text-gray-200" : "font-normal text-gray-400 ",
           "p-1 sm:p-4 pr-4"
         )}
       >
@@ -25,7 +25,7 @@ export default function Container() {
   return (
     <>
       <header>
-        <nav className="z-0 text-gray-400 flex items-center justify-between w-full max-w-4xl p-8 mx-auto my-0 sticky-nav md-auto">
+        <nav className="z-0 text-gray-400 flex items-center justify-between w-full max-w-4xl p-3 py-8 mx-auto my-0 sticky-nav md-auto">
           <div className="p-1 sm:p-4">
             <a aria-label="Square" href="/">
               <svg

@@ -4,7 +4,7 @@ import projects from "@/components/Projects/ProjectList";
 export default function Project() {
   return (
     <>
-      <h3 className="text-3xl font-bold tracking-tight md:text-4xl sm:mb-11 mb-0 p-4 md:p-4 lg:p-0">
+      <h3 className="text-gray-200 text-3xl font-bold tracking-tight md:text-4xl sm:mb-11 mb-0 p-4 md:p-4 lg:p-0">
         Projects
       </h3>
       <div className="mb-14 space-y-14 p-4 md:p-4 lg:p-0">
@@ -25,7 +25,7 @@ export default function Project() {
               }
             />
             <div className="flex flex-col w-full mx-1 my-3 space-y-3  md:w-5/12">
-              <h3 className="text-lg font-bold">{project.title}</h3>
+              <h3 className="text-gray-200 text-lg font-bold">{project.title}</h3>
               <p className="text-gray-500">{project.description}</p>
               <div className="flex pb-2 space-x-3">
                 {project.tools.map((disc, index) => (
