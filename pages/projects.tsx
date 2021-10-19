@@ -24,7 +24,7 @@ export default function project() {
       <Header />
       <div className="flex flex-col items-start justify-center max-w-2xl mx-auto mb-16">
         <section id="projects">
-          <h3 className="mb-4 text-3xl font-bold tracking-tight md:text-5xl text-white">
+          <h3 className="mb-4 text-3xl font-bold tracking-tight md:text-5xl text-gray-200">
             Projects
           </h3>
           <h2 className="mb-10 text-gray-400">

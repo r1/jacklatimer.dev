@@ -5,7 +5,7 @@ import { skills } from "./SkillsList";
 function Skills() {
   return (
     <section id="skills">
-      <h3 className="text-3xl font-bold tracking-tight md:text-4xl sm:mb-11 mb-6 p-4 md:p-4 lg:p-0">
+      <h3 className="text-gray-200 text-3xl font-bold tracking-tight md:text-4xl sm:mb-11 mb-6 p-4 md:p-4 lg:p-0">
         Technologies & Skills
       </h3>
       <Grid
