@@ -6,7 +6,7 @@ function Skills() {
   return (
     <section id="skills">
       <h3 className="text-gray-200 text-3xl font-bold tracking-tight md:text-4xl sm:mb-11 mb-6 p-4 md:p-4 lg:p-0">
-        Technologies & Skills
+        Technologies
       </h3>
       <Grid
         direction="column"
