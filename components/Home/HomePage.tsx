@@ -15,6 +15,7 @@ export default function HomePage() {
           Currently working on{" "}
           <a
             href="https://bedrck.co"
+            target="_blank"
             rel="noopener noreferrer"
             className="link font-bold hover:underline"
           >

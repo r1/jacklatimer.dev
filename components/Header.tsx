@@ -43,6 +43,7 @@ export default function Container() {
             <NavItem href="/projects" text="Projects" />
             <a
               href="https://jacklatimer.design/"
+              target="_blank"
               rel="noopener noreferrer"
               className="p-1 sm:p-4"
             >
