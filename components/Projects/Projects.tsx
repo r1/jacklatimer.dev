@@ -1,14 +1,14 @@
 import React from "react";
-import projects from "@/components/Projects/ProjectList";
+import Projects from "@/components/Projects/FeaturedProjectList";
 
 export default function Project() {
   return (
     <>
-      <h3 className="text-gray-200 text-3xl font-bold tracking-tight md:text-4xl sm:mb-11 mb-0 p-4 md:p-4 lg:p-0">
-        Projects
-      </h3>
+        <h2 className="text-gray-200 text-3xl font-bold tracking-tight md:text-4xl sm:mb-11 mb-0 p-4 md:p-4 lg:p-0">
+          Featured Projects
+        </h2>
       <div className="mb-14 space-y-14 p-4 md:p-4 lg:p-0">
-        {projects.map((project, index) => (
+        {Projects.map((project, index) => (
           <div
             className="flex flex-wrap md:justify-between md:items-center"
             key={index}
@@ -25,7 +25,9 @@ export default function Project() {
               }
             />
             <div className="flex flex-col w-full mx-1 my-3 space-y-3  md:w-5/12">
-              <h3 className="text-gray-200 text-lg font-bold">{project.title}</h3>
+              <h3 className="text-gray-200 text-lg font-bold">
+                {project.title}
+              </h3>
               <p className="text-gray-500">{project.description}</p>
               <div className="flex pb-2 space-x-3">
                 {project.tools.map((disc, index) => (

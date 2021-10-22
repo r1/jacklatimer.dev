@@ -8,16 +8,16 @@ export const skills = [
     name: "CSS",
   },
   {
-    category: "React Styling Library",
-    name: "styled-components",
-  },
-  {
     category: "CSS Framework",
     name: "Tailwind CSS",
   },
   {
     category: "Programming Language",
     name: "JavaScript",
+  },
+  {
+    category: "Programming Language",
+    name: "TypeScript",
   },
   {
     category: "JavaScript Library",

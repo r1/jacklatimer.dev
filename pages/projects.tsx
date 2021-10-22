@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Header from "@/components/Header";
 import { NextSeo } from "next-seo";
-import projects from "@/components/Projects/ProjectList";
+import Projects from "@/components/Projects/ProjectList";
 import LayoutGA from "@/components/LayoutGA";
 import Footer from "@/components/Footer";
 
@@ -28,10 +28,10 @@ export default function project() {
             Projects
           </h3>
           <h2 className="mb-10 text-gray-400">
-            My best projects that I have been working on. 😎
+            My best projects that I have been working on.
           </h2>
           <div className="my-5 space-y-14">
-            {projects.map((project, index) => (
+            {Projects.map((project, index) => (
               <article
                 className="flex flex-wrap md:justify-between md:items-center"
                 key={index}

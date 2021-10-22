@@ -1,4 +1,4 @@
-const projects = [
+const Projects = [
   {
     title: "cssbuttons.app",
     image: "/images/cssbuttons",
@@ -7,7 +7,6 @@ const projects = [
     tools: ["Next.js", "CSS", "TailwindCSS", "Vercel"],
     github: "https://github.com/r1/cssbuttons",
     link: "https://cssbuttons.app/",
-    url: "/cssbuttons"
   },
   {
     title: "nine4.app",
@@ -17,18 +16,25 @@ const projects = [
     tools: ["Next.js", "TailwindCSS", "Vercel"],
     github: "https://github.com/r1/nine4",
     link: "https://nine4.app/",
-    url: "/nine4"
   },
   {
     title: "bedrck.co",
-    image: "/images/bedrock",
+    image: "/images/placeholder",
     description:
       "Coming Soon.",
     tools: ["Next.js"],
     github: "https://github.com/r1/bedrock",
     link: "https://bedrck.co/",
-    url: "/bedrock",
+  },
+  {
+    title: "Reddit Clone",
+    image: "/images/placeholder",
+    description:
+      "Coming Soon.",
+    tools: ["Next.js"],
+    github: "https://github.com/r1/reddit",
+    link: "https://github.com/r1/reddit",
   },
 ];
 
-export default projects;
+export default Projects;
