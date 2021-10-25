@@ -17,7 +17,7 @@ export const skills = [
   },
   {
     category: "Programming Language",
-    name: "TypeScript",
+    name: "TypeScript - Learning",
   },
   {
     category: "JavaScript Library",
@@ -29,7 +29,7 @@ export const skills = [
   },
   {
     category: "Cloud Computing Services",
-    name: "AWS (Learning)",
+    name: "AWS - Learning",
   },
   {
     category: "Version Control",
