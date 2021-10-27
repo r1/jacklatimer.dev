@@ -4,9 +4,9 @@ import Projects from "@/components/Projects/FeaturedProjectList";
 export default function Project() {
   return (
     <>
-        <h2 className="text-gray-200 text-3xl font-bold tracking-tight md:text-4xl sm:mb-11 mb-0 p-4 md:p-4 lg:p-0">
-          Featured Projects
-        </h2>
+      <h2 className="text-gray-200 text-3xl font-bold tracking-tight md:text-4xl sm:mb-11 mb-0 p-4 md:p-4 lg:p-0">
+        Featured Projects
+      </h2>
       <div className="mb-14 space-y-14 p-4 md:p-4 lg:p-0">
         {Projects.map((project, index) => (
           <div
