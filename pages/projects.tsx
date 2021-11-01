@@ -24,13 +24,13 @@ export default function project() {
       <Header />
       <div className="flex flex-col items-start justify-center max-w-2xl mx-auto mb-16">
         <section id="projects">
-          <h3 className="mb-4 text-3xl font-bold tracking-tight md:text-5xl text-gray-200">
+          <h3 className="mb-4 text-3xl font-bold tracking-tight md:text-5xl text-gray-200 p-4 md:p-4 lg:p-0">
             Projects
           </h3>
-          <h2 className="mb-10 text-gray-400">
+          <h2 className="text-gray-500 mb-12 text-lg font-semibold p-4 md:p-4 lg:p-0">
             My best projects that I have been working on.
           </h2>
-          <div className="my-5 space-y-14">
+          <div className="my-5 space-y-14 p-4 md:p-4 lg:p-0">
             {Projects.map((project, index) => (
               <article
                 className="flex flex-wrap md:justify-between md:items-center"
