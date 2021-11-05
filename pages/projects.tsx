@@ -28,7 +28,7 @@ export default function project() {
             Projects
           </h3>
           <h2 className="text-gray-500 mb-12 text-lg font-semibold p-4 md:p-4 lg:p-0">
-            My best projects that I have been working on.
+            My main projects that I have been working on.
           </h2>
           <div className="my-5 space-y-14 p-4 md:p-4 lg:p-0">
             {Projects.map((project, index) => (
@@ -57,7 +57,7 @@ export default function project() {
                   <div className="flex pb-2 space-x-3">
                     {project.tools.map((disc, index) => (
                       <span
-                        className="flex px-2 py-1 text-sm border border-gray-500 rounded-lg text-gray-500"
+                        className="flex px-2 py-1 text-sm border border-gray-700 rounded-lg text-gray-500"
                         key={index}
                       >
                         {disc}

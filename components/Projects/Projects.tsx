@@ -32,7 +32,7 @@ export default function Project() {
               <div className="flex pb-2 space-x-3">
                 {project.tools.map((disc, index) => (
                   <span
-                    className="text-gray-500 flex px-2 py-1 text-sm border border-gray-500 rounded-lg"
+                    className="text-gray-500 flex px-2 py-1 text-sm border border-gray-700 rounded-lg"
                     key={index}
                   >
                     {disc}
