@@ -20,7 +20,7 @@ export default function Project() {
               height="190"
               className={
                 index % 2 === 0
-                  ? "rounded-lg shadow-lg "
+                  ? "rounded-lg shadow-lg"
                   : "rounded-lg shadow-lg md:order-1"
               }
             />

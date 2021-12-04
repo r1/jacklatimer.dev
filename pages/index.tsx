@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
       <NextSeo
         title="Jack Latimer - Home"
-        description="Frontend Developer Based In Liverpool, England"
+        description="Frontend Developer based in Liverpool, England"
       />
       <Header />
       <HomePage />

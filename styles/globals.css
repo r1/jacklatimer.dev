@@ -36,7 +36,7 @@ body::-webkit-scrollbar-thumb {
   color: #d0d0d0;
 }
 
-::selection {
+::selection { 
   background: #4f4f4f;
   color: #d0d0d0;
 }
@@ -54,5 +54,8 @@ body::-webkit-scrollbar-thumb {
 
 .link {
   color: #969696;
-  
+}
+
+.text-gray {
+  color: hsla(0, 0%, 100%, 0.7);
 }
