@@ -2,7 +2,7 @@ import React from "react";
 
 const ExternalLink = ({ href, children }) => (
   <a
-    className="text-gray-200 hover:text-white font-semibold transition"
+    className="text-gray-200 hover:text-white transition"
     target="_blank"
     rel="noopener noreferrer"
     href={href}

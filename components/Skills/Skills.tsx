@@ -5,7 +5,7 @@ import { skills } from "./SkillsList";
 function Skills() {
   return (
     <section className="mb-10">
-      <h3 className="text-gray-200 text-3xl font-bold tracking-tight md:text-4xl sm:mb-11 mb-6 p-4 md:p-4 lg:p-0">
+      <h3 className="text-gray-200 text-3xl tracking-tight md:text-4xl sm:mb-11 mb-6 p-4 md:p-4 lg:p-0">
         Technologies
       </h3>
       <Grid
@@ -29,7 +29,7 @@ function Skills() {
                 >
                   <Grid container direction="row" spacing={2}>
                     <Grid item>
-                      <h2 className="text-gray-200 font-semibold">{i.name}</h2>
+                      <h2 className="text-gray-200">{i.name}</h2>
                       <h3 className="text-gray-500 Inter-Regular">{i.category}</h3>
                     </Grid>
                   </Grid>

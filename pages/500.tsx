@@ -10,7 +10,7 @@ export default function NotFound() {
       <NextSeo title="Jack Latimer - 500" description="500" />
       <Header />
       <div className="flex flex-col justify-center mx-auto mt-12 text-center max-w-2x1">
-        <h1 className="mb-4 text-6xl font-bold tracking-tight md:text-5xl text-white">
+        <h1 className="mb-4 text-6xl tracking-tight md:text-5xl text-white">
           500 – Server-side error occurred
         </h1>
       </div>
