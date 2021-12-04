@@ -53,11 +53,13 @@ export default function project() {
                       {project.title}
                     </h3>
                   </h2>
-                  <p className="text-gray-500">{project.description}</p>
+                  <p className="text-gray-500 Inter-Regular">
+                    {project.description}
+                  </p>
                   <div className="flex pb-2 space-x-3">
                     {project.tools.map((disc, index) => (
                       <span
-                        className="flex px-2 py-1 text-sm border border-gray-700 rounded-lg text-gray-500"
+                        className="flex px-2 py-1 text-sm border border-gray-700 rounded-lg text-gray-500 Inter-Regular"
                         key={index}
                       >
                         {disc}

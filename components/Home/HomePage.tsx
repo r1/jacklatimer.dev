@@ -7,7 +7,7 @@ export default function HomePage() {
     <>
       <div className="flex flex-col items-start max-w-2xl mx-auto mb-16">
         <div className="p-4 md:p-4 lg:p-0">
-          <h2 className="text-gray-200 md:mb-4 mb-0 text-3xl font-bold tracking-tight md:text-4xl">
+          <h2 className="text-gray-200 md:mb-4 mb-0 text-3xl font-bold tracking-tight md:text-4xl Inter-Bold">
             Hey! I'm Jack - Frontend Developer
           </h2>
         </div>

@@ -26,8 +26,7 @@ function NavItem({ href, text }) {
 export default function Container() {
   return (
     <>
-      <header>
-        <nav className="z-0 text-gray-400 flex items-center justify-between w-full max-w-4xl p-3 py-8 mx-auto my-0 sticky-nav md-auto">
+        <nav className="z-0 text-gray-400 flex items-center justify-between w-full max-w-4xl p-3 py-8 mx-auto my-0 sticky-nav md-auto Inter-Regular">
           <div className="p-1 sm:p-4">
             <a aria-label="Square" href="/">
               <svg
@@ -53,7 +52,6 @@ export default function Container() {
             </a>
           </div>
         </nav>
-      </header>
     </>
   );
 }

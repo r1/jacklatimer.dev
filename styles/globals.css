@@ -2,10 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: Inter-Bold;
+  src: url(../public/fonts/Inter-Bold.ttf);
+}
+
+@font-face {
+  font-family: Inter-Regular;
+  src: url(../public/fonts/Inter-Regular.ttf);
+}
+
+@font-face {
+  font-family: Inter-SemiBold;
+  src: url(../public/fonts/Inter-SemiBold.ttf);
+}
+
 html {
   min-width: 360px;
   scroll-behavior: smooth;
   overflow-x: hidden;
+  font-family: Inter-Bold;
 }
 
 body {
@@ -36,7 +52,7 @@ body::-webkit-scrollbar-thumb {
   color: #d0d0d0;
 }
 
-::selection { 
+::selection {
   background: #4f4f4f;
   color: #d0d0d0;
 }
@@ -58,4 +74,12 @@ body::-webkit-scrollbar-thumb {
 
 .text-gray {
   color: hsla(0, 0%, 100%, 0.7);
+}
+
+.Inter-Bold {
+  font-family: Inter-Bold;
+}
+
+.Inter-Regular {
+  font-family: Inter-Regular;
 }

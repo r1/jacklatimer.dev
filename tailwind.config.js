@@ -17,9 +17,6 @@ module.exports = {
           900: "#191919",
         },
       },
-      fontFamily: {
-        sans: ['Inter']
-      },
       typography: (theme) => ({
         DEFAULT: {
           css: {

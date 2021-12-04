@@ -28,11 +28,13 @@ export default function Project() {
               <h3 className="text-gray-200 text-lg font-bold">
                 {project.title}
               </h3>
-              <p className="text-gray-500">{project.description}</p>
+              <p className="text-gray-500 Inter-Regular">
+                {project.description}
+              </p>
               <div className="flex pb-2 space-x-3">
                 {project.tools.map((disc, index) => (
                   <span
-                    className="text-gray-500 flex px-2 py-1 text-sm border border-gray-700 rounded-lg"
+                    className="text-gray-500 flex px-2 py-1 text-sm border border-gray-700 rounded-lg Inter-Regular"
                     key={index}
                   >
                     {disc}

@@ -14,7 +14,7 @@ const ExternalLink = ({ href, children }) => (
 export default function Footer() {
   return (
     <footer className="flex flex-col items-center mb-8">
-      <div className="flex space-x-4">
+      <div className="flex space-x-4 Inter-Regular">
         <ExternalLink href="https://github.com/r1">GitHub</ExternalLink>
         <ExternalLink href="https://www.linkedin.com/in/jacklatimer">
           Linkedin
