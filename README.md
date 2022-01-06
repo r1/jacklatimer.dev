@@ -1,10 +1,9 @@
 <div align="center">
 <h1 align="center">jacklatimer.dev</h1> 
-Tech Stack: Next.js / React, Tailwind CSS
+Tech Stack: Next.js / React & Tailwind CSS
 <br></br>
 <img src="./img/main_page.png"></img>
 <img src="./img/main_page2.png"></img>
-<img src="./img/main_page3.png"></img>
 </div>
 
 

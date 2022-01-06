@@ -1,12 +1,12 @@
-import React from "react";
+/* eslint-disable @next/next/no-img-element */
 import Head from "next/head";
 import Header from "@/components/Header";
 import { NextSeo } from "next-seo";
-import Projects from "@/components/Projects/ProjectList";
+import { Projects } from "@/components/Work/ProjectList";
 import LayoutGA from "@/components/LayoutGA";
 import Footer from "@/components/Footer";
 
-export default function project() {
+export default function Work() {
   return (
     <LayoutGA>
       <Head>
@@ -14,22 +14,24 @@ export default function project() {
         <link rel="icon" href="./favicon.ico" />
         <meta
           name="keywords"
-          content="Jack Latimer, Jack Latimer Projects, Portfolio project"
+          content="Jack Latimer · Frontend Developer from Liverpool, UK"
         ></meta>
       </Head>
       <NextSeo
-        title="Jack Latimer - Projects"
+        title="Jack Latimer"
         description="My Personal Project Portfolio"
       />
       <Header />
       <div className="flex flex-col items-start justify-center max-w-2xl mx-auto mb-16">
         <section id="projects">
-          <h3 className="mb-4 text-3xl tracking-tight md:text-5xl text-gray-200 p-4 md:p-4 lg:p-0">
-            Projects
-          </h3>
-          <h2 className="text-gray-500 mb-12 text-lg p-4 md:p-4 lg:p-0">
+          <div className="p-4 md:p-4 lg:p-0">
+            <h2 className="text-black text-3xl tracking-tight md:text-4xl Inter-Bold">
+              Work
+            </h2>
+          </div>
+          <p className="text-gray-600 mb-12 text-lg pt-0 lg:pt-4 md:pt-0 pl-4 lg:pl-0 md:pl-4">
             My main projects that I have been working on.
-          </h2>
+          </p>
           <div className="my-5 space-y-14 p-4 md:p-4 lg:p-0">
             {Projects.map((project, index) => (
               <article
@@ -49,23 +51,11 @@ export default function project() {
                 />
                 <div className="flex flex-col w-full mx-1 my-3 space-y-3  md:w-5/12 ">
                   <h2>
-                    <h3 className="text-lg text-white">
-                      {project.title}
-                    </h3>
+                    <h3 className="text-lg text-black">{project.title}</h3>
                   </h2>
-                  <p className="text-gray-500 Inter-Regular">
+                  <p className="text-gray-600 Inter-Medium">
                     {project.description}
                   </p>
-                  <div className="flex pb-2 space-x-3">
-                    {project.tools.map((disc, index) => (
-                      <span
-                        className="flex px-2 py-1 text-sm border border-gray-700 rounded-lg text-gray-500 Inter-Regular"
-                        key={index}
-                      >
-                        {disc}
-                      </span>
-                    ))}
-                  </div>
                   <div className="relative flex w-auto space-x-4">
                     <div className="flex">
                       <a

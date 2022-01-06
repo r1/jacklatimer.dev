@@ -4,6 +4,7 @@ import Head from "next/head";
 import SEO from "../next-seo.config";
 import { DefaultSeo } from "next-seo";
 import { Helmet } from "react-helmet";
+import NextNProgress from "nextjs-progressbar";
 
 export default function App({ Component, pageProps }) {
   return (
@@ -12,7 +13,14 @@ export default function App({ Component, pageProps }) {
       <Head>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
       </Head>
-      <body >
+      <body>
+        <NextNProgress
+          color="#161616"
+          startPosition={0.3}
+          stopDelayMs={200}
+          height={2}
+          showOnShallow={true}
+        />
         <DefaultSeo {...SEO} />
         <Component {...pageProps} />
       </body>

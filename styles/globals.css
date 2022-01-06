@@ -3,18 +3,23 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: Inter-Bold;
-  src: url(../public/fonts/Inter-Bold.ttf);
-}
-
-@font-face {
   font-family: Inter-Regular;
   src: url(../public/fonts/Inter-Regular.ttf);
 }
 
 @font-face {
+  font-family: Inter-Medium;
+  src: url(../public/fonts/Inter-Medium.ttf);
+}
+
+@font-face {
   font-family: Inter-SemiBold;
   src: url(../public/fonts/Inter-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Inter-Bold;
+  src: url(../public/fonts/Inter-Bold.ttf);
 }
 
 html {
@@ -25,7 +30,7 @@ html {
 }
 
 body {
-  background-color: #141414;
+  background-color: #f8f8f8;
   overflow-x: hidden;
 }
 
@@ -33,28 +38,24 @@ body::-webkit-scrollbar {
   width: 0.6em;
 }
 
-body::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 2px rgb(29, 29, 29);
-}
-
 body::-webkit-scrollbar-thumb {
-  background-color: #525252;
-  outline: 1px solid #585858;
+  background-color: #1a1a1a;
+  outline: 1px solid #1f1f1f;
 }
 
 ::-moz-selection {
-  background: #4f4f4f;
-  color: #d0d0d0;
+  background: #000000;
+  color: #ffffff;
 }
 
 ::-webkit-selection {
-  background: #4f4f4f;
-  color: #d0d0d0;
+  background: #000000;
+  color: #ffffff;
 }
 
 ::selection {
-  background: #4f4f4f;
-  color: #d0d0d0;
+  background: #000000;
+  color: #ffffff;
 }
 
 #__next {
@@ -68,10 +69,6 @@ body::-webkit-scrollbar-thumb {
   top: 0;
 }
 
-.link {
-  color: #969696;
-}
-
 .text-gray {
   color: hsla(0, 0%, 100%, 0.7);
 }
@@ -82,4 +79,14 @@ body::-webkit-scrollbar-thumb {
 
 .Inter-Regular {
   font-family: Inter-Regular;
+}
+
+.Inter-Medium {
+  font-family: Inter-Medium;
+}
+
+.ud:hover {
+  border-bottom: 2px solid #161616;
+  display: inline-block;
+  line-height: 0.85;
 }

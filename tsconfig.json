@@ -41,7 +41,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "utils/analytics.js"  ],
   "exclude": [
     "node_modules"
   ]

@@ -1,4 +1,3 @@
-import React from "react";
 import Head from "next/head";
 import Header from "@/components/Header";
 import { NextSeo } from "next-seo";
@@ -12,11 +11,11 @@ export default function Home() {
       <Head>
         <title>jacklatimer.dev</title>
         <link rel="icon" href="./favicon.ico" />
-        <meta name="keywords" content="Jack Latimer, r1"></meta>
+        <meta name="keywords" content="Jack Latimer"></meta>
       </Head>
       <NextSeo
-        title="Jack Latimer - Home"
-        description="Frontend Developer based in Liverpool, England"
+        title="Jack Latimer"
+        description="Jack Latimer · Frontend Developer from Liverpool, UK"
       />
       <Header />
       <HomePage />

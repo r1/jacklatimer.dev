@@ -1,14 +1,14 @@
-import React from "react";
-import Projects from "@/components/Projects/FeaturedProjectList";
+/* eslint-disable @next/next/no-img-element */
+import { FeaturedProjects } from "@/components/Work/FeaturedProjectList";
 
 export default function Project() {
   return (
     <>
-      <h2 className="text-gray-200 text-3xl tracking-tight md:text-4xl sm:mb-11 mb-0 p-4 md:p-4 lg:p-0">
-        Featured Projects
+      <h2 className="text-black text-3xl tracking-tight md:text-4xl sm:mb-11 mb-0 p-4 md:p-4 lg:p-0">
+        Featured Work
       </h2>
       <div className="mb-14 space-y-14 p-4 md:p-4 lg:p-0">
-        {Projects.map((project, index) => (
+        {FeaturedProjects.map((project, index) => (
           <div
             className="flex flex-wrap md:justify-between md:items-center"
             key={index}
@@ -25,23 +25,11 @@ export default function Project() {
               }
             />
             <div className="flex flex-col w-full mx-1 my-3 space-y-3  md:w-5/12">
-              <h3 className="text-gray-200 text-lg">
-                {project.title}
-              </h3>
-              <p className="text-gray-500 Inter-Regular">
+              <h3 className="text-gray-900 text-lg">{project.title}</h3>
+              <p className="text-gray-600 Inter-Medium ">
                 {project.description}
               </p>
-              <div className="flex pb-2 space-x-3">
-                {project.tools.map((disc, index) => (
-                  <span
-                    className="text-gray-500 flex px-2 py-1 text-sm border border-gray-700 rounded-lg Inter-Regular"
-                    key={index}
-                  >
-                    {disc}
-                  </span>
-                ))}
-              </div>
-              <div className="relative flex w-auto space-x-4">
+              <div className="relative flex w-auto space-x-4 pt-2">
                 <div className="flex">
                   <a
                     className="transition"
@@ -53,7 +41,7 @@ export default function Project() {
                     <svg className="w-8 h-7" viewBox="0 0 24 24">
                       <g
                         fill="none"
-                        stroke="#4d4d4d"
+                        stroke="#161616"
                         strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
@@ -63,7 +51,7 @@ export default function Project() {
                     </svg>
                   </a>
                 </div>
-                <div className="text-gray-500 relative flex w-auto">
+                <div className=" relative flex w-auto">
                   <a
                     href={project.link}
                     aria-label="External Link"
@@ -73,10 +61,10 @@ export default function Project() {
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
-                      stroke="#4d4d4d"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      stroke="#161616"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       className="feather feather-link-2 h-7 w-8"
                       viewBox="0 0 24 24"
                     >
