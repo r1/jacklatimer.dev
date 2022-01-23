@@ -25,9 +25,9 @@ export default function Work() {
       <div className="flex flex-col items-start justify-center max-w-2xl mx-auto mb-16">
         <section id="projects">
           <div className="p-4 md:p-4 lg:p-0">
-            <h2 className="text-black text-3xl tracking-tight md:text-4xl Inter-Bold">
+            <h1 className="text-black text-3xl tracking-tight md:text-4xl Inter-Bold">
               Work
-            </h2>
+            </h1>
           </div>
           <p className="text-gray-600 mb-12 text-lg pt-0 lg:pt-4 md:pt-0 pl-4 lg:pl-0 md:pl-4">
             My main projects that I have been working on.
