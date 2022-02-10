@@ -41,7 +41,7 @@ export default function Container() {
         </div>
         <div>
           <NavItem href="/" text="Home" />
-          <NavItem href="/work" text="Work" />
+          <NavItem href="/now" text="Now" />
           <a
             href="https://jacklatimer.design/"
             target="_blank"

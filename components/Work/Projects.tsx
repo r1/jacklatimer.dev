@@ -1,41 +1,37 @@
 /* eslint-disable @next/next/no-img-element */
-import { FeaturedProjects } from "@/components/Work/FeaturedProjectList";
+import { Work } from "./Work";
 
 export default function Project() {
   return (
     <>
       <h2 className="text-black text-3xl tracking-tight md:text-4xl sm:mb-11 mb-0 p-4 md:p-4 lg:p-0">
-        Featured Work
+        Work
       </h2>
-      <div className="mb-14 space-y-14 p-4 md:p-4 lg:p-0">
-        {FeaturedProjects.map((project, index) => (
-          <div
-            className="flex flex-wrap md:justify-between md:items-center"
-            key={index}
-          >
-            <img
-              src={`${project.image}.webp`}
-              alt={project.title}
-              width="340"
-              height="190"
-              className={
-                index % 2 === 0
-                  ? "rounded-lg shadow-lg"
-                  : "rounded-lg shadow-lg md:order-1"
-              }
-            />
-            <div className="flex flex-col w-full mx-1 my-3 space-y-3  md:w-5/12">
-              <h3 className="text-gray-900 text-lg">{project.title}</h3>
-              <p className="text-gray-600 Inter-Medium ">
-                {project.description}
-              </p>
-              <div className="relative flex w-auto space-x-4 pt-2">
-                <div className="flex">
+      <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 p-4 md:p-4 lg:p-0">
+        {Work.map((i) => {
+          return (
+            <div
+              className="max-w-xs rounded overflow-hidden inline-block"
+              key=""
+            >
+              <img
+                src={`${i.image}.png`}
+                alt={i.title}
+                className="rounded-lg shadow-lg"
+              />
+              <div className="pr-4 py-4">
+                <div className="text-black font-bold text-xl mb-2">
+                  {i.title}
+                </div>
+                <p className="text-gray-600 text-base">{i.description}</p>
+              </div>
+              <div className="relative flex w-auto space-x-4">
+                <div className="relative flex w-auto">
                   <a
                     className="transition"
                     target="_blank"
                     rel="noopener noreferrer"
-                    href={project.github}
+                    href={i.github}
                   >
                     <span className="sr-only">Github</span>
                     <svg className="w-8 h-7" viewBox="0 0 24 24">
@@ -51,9 +47,9 @@ export default function Project() {
                     </svg>
                   </a>
                 </div>
-                <div className=" relative flex w-auto">
+                <div className="relative flex w-auto">
                   <a
-                    href={project.link}
+                    href={i.link}
                     aria-label="External Link"
                     target="_blank"
                     rel="noreferrer"
@@ -75,8 +71,8 @@ export default function Project() {
                 </div>
               </div>
             </div>
-          </div>
-        ))}
+          );
+        })}
       </div>
     </>
   );

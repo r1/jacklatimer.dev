@@ -1,9 +1,10 @@
+
 import Grid from "@material-ui/core/Grid";
-import { skills } from "./SkillsList";
+import { skills } from "./SkillList";
 
 function Skills() {
   return (
-    <section className="mb-10">
+    <section className="mb-10 mt-10">
       <h3 className="text-black text-3xl tracking-tight md:text-4xl sm:mb-11 mb-6 p-4 md:p-4 lg:p-0">
         Technologies
       </h3>
