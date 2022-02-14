@@ -23,12 +23,12 @@ export default function Work() {
             Now
           </h1>
           <h2 className="text-gray-700 text-xl tracking-tight Inter-Bold mt-4">
-            Things I&apos;m working on or interested in.
+            Things I&apos;m working on or interested in doing.
           </h2>
         </div>
         <ul className="pl-4">
           <li className="text-gray-700 mb-2 text-lg pt-0 lg:pt-8 md:pt-0 pl-4 lg:pl-0 md:pl-4">
-            - Working on making{" "}
+            - Building the UI for{" "}
             <a
               href="https://bedrck.co"
               target="_blank"
@@ -37,7 +37,6 @@ export default function Work() {
             >
               Bedrock
             </a>{" "}
-            look good
           </li>
           <li className="text-gray-700 mb-2 text-lg pl-4 lg:pl-0 md:pl-4">
             - Cloning{" "}
@@ -64,17 +63,17 @@ export default function Work() {
             to 100 buttons
           </li>
           <li className="text-gray-700 mb-2 text-lg pl-4 lg:pl-0 md:pl-4">
-            - Expanding my TypeScript knowledge
+            - Learn TypeScript & AWS
           </li>
           <li className="text-gray-700 mb-2 text-lg pl-4 lg:pl-0 md:pl-4">
             - Strengthening my fundamental CSS skills (layouts, responsiveness,
             etc)
           </li>
           <li className="text-gray-700 mb-2 text-lg pl-4 lg:pl-0 md:pl-4">
-            - Animations
+            - Learn Framer Motion
           </li>
           <li className="text-gray-700 mb-2 text-lg pl-4 lg:pl-0 md:pl-4">
-            - Finishing books - currently reading{" "}
+            - Reading more books - currently reading{" "}
             <a
               href="https://www.amazon.co.uk/Infinite-Machine-Crypto-hackers-Building-Internet-ebook/dp/B07X8HS2WC"
               target="_blank"
@@ -85,12 +84,15 @@ export default function Work() {
             </a>{" "}
           </li>
           <li className="text-gray-700 mb-2 text-lg pl-4 lg:pl-0 md:pl-4">
-            - Get started on an ecommerce website
+            - Get started on a Ring clone with ecommerce functionality
+          </li>
+          <li className="text-gray-700 mb-2 text-lg pl-4 lg:pl-0 md:pl-4">
+            - Get started on a task management app
           </li>
           <li className="text-gray-700 mb-2 text-lg pl-4 lg:pl-0 md:pl-4"></li>
         </ul>
         <h2 className="text-gray-700 text-md tracking-tight mt-8">
-          Last updated 09/02/22
+          Last updated 14/02/22
         </h2>
       </div>
     </LayoutGA>
