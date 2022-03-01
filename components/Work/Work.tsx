@@ -21,4 +21,11 @@ export const Work = [
     github: "https://github.com/r1/bedrock",
     link: "https://bedrck.co/",
   },
+  {
+    title: "Revolut",
+    image: "/images/revolut",
+    description: "Revolut clone build with Tailwind CSS & Next.js",
+    github: "https://github.com/r1/revolut",
+    link: "https://revolut.vercel.app/",
+  },
 ];

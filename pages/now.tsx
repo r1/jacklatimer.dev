@@ -39,18 +39,6 @@ export default function Work() {
             </a>{" "}
           </li>
           <li className="text-gray-700 mb-2 text-lg pl-4 lg:pl-0 md:pl-4">
-            - Cloning{" "}
-            <a
-              href="https://revolut.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-black ud"
-            >
-              revolut.com
-            </a>{" "}
-            using Tailwind CSS v3
-          </li>
-          <li className="text-gray-700 mb-2 text-lg pl-4 lg:pl-0 md:pl-4">
             - Getting{" "}
             <a
               href="https://cssbuttons.app"
@@ -91,8 +79,8 @@ export default function Work() {
           </li>
           <li className="text-gray-700 mb-2 text-lg pl-4 lg:pl-0 md:pl-4"></li>
         </ul>
-        <h2 className="text-gray-700 text-md tracking-tight mt-8">
-          Last updated 14/02/22
+        <h2 className="text-gray-700 text-md tracking-tight mt-8 italic">
+          Last updated 1/03/22
         </h2>
       </div>
     </LayoutGA>
