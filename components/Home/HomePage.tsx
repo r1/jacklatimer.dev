@@ -10,7 +10,7 @@ export default function HomePage() {
             Jack Latimer - Frontend Developer
           </h1>
         </div>
-        <h2 className="text-gray-700 mb-12 text-lg pt-0 lg:pt-4 md:pt-0 pl-4 lg:pl-0 md:pl-4">
+        <h2 className="text-gray-700 pr-10 md:pr-0 mb-12 sm:text-lg text-md pt-0 lg:pt-4 md:pt-0 pl-4 lg:pl-0 md:pl-4">
           Currently working on{" "}
           <a
             href="https://bedrck.co"
@@ -19,9 +19,9 @@ export default function HomePage() {
             className="text-gray-900 ud"
           >
             Bedrock
-          </a>{" "}
-          as the sole maintainer. My future career goals are collaborating and
-          helping build beautiful UI for the web.
+          </a>
+          . My future career goals are collaborating and helping build beautiful
+          UI for the web.
         </h2>
         <Projects />
         <Skills />

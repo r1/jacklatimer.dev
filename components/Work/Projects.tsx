@@ -4,7 +4,7 @@ import { Work } from "./Work";
 export default function Project() {
   return (
     <>
-      <h2 className="text-black text-3xl tracking-tight md:text-4xl sm:mb-11 mb-0 p-4 md:p-4 lg:p-0">
+      <h2 className="text-black text-3xl tracking-tight md:text-4xl lg:mb-11 mb-1 p-4 md:p-4 lg:p-0">
         Work
       </h2>
       <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 p-4 md:p-4 lg:p-0">
