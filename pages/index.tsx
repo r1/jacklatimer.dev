@@ -3,7 +3,7 @@ import Header from "@/components/Header";
 import { NextSeo } from "next-seo";
 import LayoutGA from "@/components/LayoutGA";
 import Footer from "@/components/Footer";
-import HomePage from "@/components/Home/HomePage";
+import HomePage from "@/components/Home/Layout";
 
 export default function Home() {
   return (

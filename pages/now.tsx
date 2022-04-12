@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 import { NextSeo } from "next-seo";
 import LayoutGA from "@/components/LayoutGA";
 import Footer from "@/components/Footer";
-import Now from "@/components/Now/Now"
+import Now from "@/components/Now/Now";
 
 export default function Work() {
   return (

@@ -13,8 +13,8 @@ function NavItem({ href, text }) {
         className={cn(
           isActive
             ? "font-semibold text-gray-900"
-            : "text-gray-700 Inter-Medium",
-          "p-1 sm:p-4 pr-4"
+            : "Inter-Medium text-gray-700",
+          "p-1 pr-4 sm:p-4"
         )}
       >
         <span>{text}</span>
@@ -26,7 +26,7 @@ function NavItem({ href, text }) {
 export default function Container() {
   return (
     <>
-      <nav className="text-gray-400 flex items-center justify-between w-full max-w-4xl p-3 py-8 mx-auto my-0 sticky-nav md-auto Inter-Regular">
+      <nav className="sticky-nav md-auto Inter-Regular mx-auto my-0 flex w-full max-w-4xl items-center justify-between p-3 py-8 text-gray-400">
         <div className="p-1 md:p-4">
           <a aria-label="Square" href="/">
             <svg
@@ -46,7 +46,7 @@ export default function Container() {
             href="https://jacklatimer.design/"
             target="_blank"
             rel="noopener noreferrer"
-            className="p-1 sm:p-4 text-gray-700 Inter-Medium"
+            className="Inter-Medium p-1 text-gray-700 sm:p-4"
           >
             Design
           </a>

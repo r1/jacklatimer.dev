@@ -1,29 +1,66 @@
+/* eslint-disable react/jsx-key */
 /* eslint-disable @next/next/no-img-element */
-import { Work } from "./Work";
+import { useState } from "react";
+import { projectData } from "./Work";
+import Image from "next/image";
 
-export default function Project() {
-  return (
-    <>
-      <h2 className="text-black text-3xl tracking-tight md:text-4xl lg:mb-11 mb-1 p-4 md:p-4 lg:p-0">
-        Work
-      </h2>
-      <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 p-4 md:p-4 lg:p-0">
-        {Work.map((i) => {
-          return (
-            <div
-              className="max-w-xs rounded overflow-hidden inline-block"
-              key=""
-            >
-              <img
-                src={`${i.image}.png`}
-                alt={i.title}
-                className="rounded-lg shadow-lg"
+const LENGTH = 8;
+const LIMIT = 4;
+
+function cn(...classes: string[]) {
+  return classes.filter(Boolean).join(" ");
+}
+
+export default function Projects() {
+  const [isLoading, setLoading] = useState(true);
+  const [showMore, setShowMore] = useState(true);
+  const [index, setIndex] = useState(LIMIT);
+  const inititalLimit = LIMIT;
+
+  const [limit, setLimit] = useState(inititalLimit);
+
+  const showMoreDocuments = () => {
+    const newIndex = index + LIMIT;
+    const newShowMore = newIndex < LENGTH - 1;
+    setLimit(limit + 4);
+    setIndex(newIndex);
+    setShowMore(newShowMore);
+  };
+
+  const RenderProjects = (
+    ProjectData: {
+      title: string;
+      image: string;
+      description: string;
+      github: string;
+      link: string;
+    }[]
+  ) => {
+    return ProjectData.slice(0, limit).map((ProjectData) => {
+      return (
+        <>
+          <div className="p-4 md:p-4 lg:p-0">
+            <div className="inline-block max-w-xs overflow-hidden rounded">
+              <Image
+                src={`${ProjectData.image}.png`}
+                alt={ProjectData.title}
+                width={370}
+                height={210}
+                className={cn(
+                  "rounded-lg shadow-sm duration-700 ease-in-out",
+                  isLoading
+                    ? "scale-110 blur-2xl grayscale"
+                    : "scale-100 blur-0 grayscale-0"
+                )}
+                onLoadingComplete={() => setLoading(false)}
               />
-              <div className="pr-4 py-4">
-                <div className="text-black font-bold text-xl mb-2">
-                  {i.title}
+              <div className="py-4 pr-4">
+                <div className="mb-2 text-xl font-bold text-black">
+                  {ProjectData.title}
                 </div>
-                <p className="text-gray-600 text-base">{i.description}</p>
+                <p className="text-base text-gray-600">
+                  {ProjectData.description}
+                </p>
               </div>
               <div className="relative flex w-auto space-x-4">
                 <div className="relative flex w-auto">
@@ -31,10 +68,10 @@ export default function Project() {
                     className="transition"
                     target="_blank"
                     rel="noopener noreferrer"
-                    href={i.github}
+                    href={ProjectData.github}
                   >
                     <span className="sr-only">Github</span>
-                    <svg className="w-8 h-7" viewBox="0 0 24 24">
+                    <svg className="h-7 w-8" viewBox="0 0 24 24">
                       <g
                         fill="none"
                         stroke="#161616"
@@ -49,7 +86,7 @@ export default function Project() {
                 </div>
                 <div className="relative flex w-auto">
                   <a
-                    href={i.link}
+                    href={ProjectData.link}
                     aria-label="External Link"
                     target="_blank"
                     rel="noreferrer"
@@ -71,9 +108,46 @@ export default function Project() {
                 </div>
               </div>
             </div>
-          );
-        })}
+          </div>
+        </>
+      );
+    });
+  };
+
+  const RenderFinal = (
+    ProjectData: {
+      title: string;
+      image: string;
+      description: string;
+      github: string;
+      link: string;
+    }[]
+  ) => {
+    return (
+      <div>
+        <div className="mb-4 grid grid-cols-1 gap-0 sm:grid-cols-2  lg:gap-6">
+          {RenderProjects(ProjectData)}
+          <div className="p-3 sm:p-3 md:p-3 lg:p-0">
+            {showMore && (
+              <button
+                className="rounded-md bg-black py-2 px-5 text-[0.9rem] font-semibold text-white shadow-sm shadow-gray-400 focus:outline-none"
+                onClick={showMoreDocuments}
+              >
+                Show All{" "}
+              </button>
+            )}
+          </div>
+        </div>
       </div>
+    );
+  };
+
+  return (
+    <>
+      <h2 className="mb-1 p-4 text-3xl tracking-tight text-black md:p-4 md:text-4xl lg:mb-11 lg:p-0">
+        Work
+      </h2>
+      {RenderFinal(projectData)}
     </>
   );
 }
