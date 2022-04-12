@@ -42,14 +42,6 @@ export default function Container() {
         <div>
           <NavItem href="/" text="Home" />
           <NavItem href="/now" text="Now" />
-          <a
-            href="https://jacklatimer.design/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="Inter-Medium p-1 text-gray-700 sm:p-4"
-          >
-            Design
-          </a>
         </div>
       </nav>
     </>
