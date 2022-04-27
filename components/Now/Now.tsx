@@ -23,19 +23,7 @@ export default function Now() {
             </a>{" "}
           </li>
           <li className="mb-2 pl-4 text-lg text-gray-700 md:pl-4 lg:pl-0">
-            - Learning some Vue.js
-          </li>
-          <li className="mb-2 pl-4 text-lg text-gray-700 md:pl-4 lg:pl-0">
-            - Getting{" "}
-            <a
-              href="https://cssbuttons.app"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="ud text-black"
-            >
-              cssbuttons.app
-            </a>{" "}
-            to 100 buttons
+            - Learning Vue.js
           </li>
           <li className="mb-2 pl-4 text-lg text-gray-700 md:pl-4 lg:pl-0">
             - Learning TypeScript & AWS
@@ -49,7 +37,7 @@ export default function Now() {
           </li>
         </ul>
         <h2 className="text-md mt-8 italic tracking-tight text-gray-700">
-          Last updated 12/04/22
+          Last updated 27/04/22
         </h2>
       </div>
     </>

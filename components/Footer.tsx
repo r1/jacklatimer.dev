@@ -4,19 +4,19 @@ export default function Footer() {
       <div className="Inter-Medium flex space-x-9 font-semibold">
         <a
           href="https://github.com/r1"
-          className="text-[#4c4c4c] transition hover:text-black"
+          className="text-[#000000] transition"
         >
           GitHub
         </a>
         <a
           href="https://www.linkedin.com/in/jacklatimer"
-          className="text-[#4c4c4c] transition hover:text-black"
+          className="text-[#000000] transition"
         >
           Linkedin
         </a>
         <a
           href="mailto:jacklatimer03@gmail.com"
-          className="text-[#4c4c4c] transition hover:text-black"
+          className="text-[#000000] transition"
         >
           Email
         </a>

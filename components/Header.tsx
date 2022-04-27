@@ -35,13 +35,21 @@ export default function Container() {
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <rect width="24" height="24" fill="#161616"></rect>
+              <rect width="24" height="24" fill="#000000"></rect>
             </svg>
           </a>
         </div>
         <div>
           <NavItem href="/" text="Home" />
           <NavItem href="/now" text="Now" />
+          <a
+            target="_blank"
+            rel="noreferrer noopener"
+            className="Inter-Medium p-1 pr-4 text-gray-700 sm:p-4"
+            href="https://read.cv/jacklatimer"
+          >
+            CV
+          </a>
         </div>
       </nav>
     </>
