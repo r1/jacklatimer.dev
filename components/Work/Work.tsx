@@ -9,12 +9,12 @@ export const projectData = [
   {
     title: "NINE4",
     image: "/images/nine4",
-    description: "Website templates built with Tailwind CSS & Next.js.",
+    description: "Tailwind CSS Templates",
     github: "https://github.com/r1/nine4",
     link: "https://nine4.app/",
   },
   {
-    title: "cssbuttons",
+    title: "cssbuttons (sold)",
     image: "/images/cssbuttons",
     description:
       "Button collection with a focus on simplicity and ease of use.",

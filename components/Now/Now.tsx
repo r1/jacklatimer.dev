@@ -11,17 +11,6 @@ export default function Now() {
           </h2>
         </div>
         <ul className="pl-4 pr-4">
-          <li className="mb-2 pt-0 pl-4 text-lg text-gray-700 md:pt-0 md:pl-4 lg:pt-8 lg:pl-0">
-            - Building the UI for{" "}
-            <a
-              href="https://bedrck.co"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="ud text-black"
-            >
-              Bedrock
-            </a>{" "}
-          </li>
           <li className="mb-2 pl-4 text-lg text-gray-700 md:pl-4 lg:pl-0">
             - Learning Vue.js
           </li>
@@ -37,7 +26,7 @@ export default function Now() {
           </li>
         </ul>
         <h2 className="text-md mt-8 italic tracking-tight text-gray-700">
-          Last updated 27/04/22
+          Last updated 24/05/22
         </h2>
       </div>
     </>

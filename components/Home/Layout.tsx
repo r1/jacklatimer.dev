@@ -11,16 +11,7 @@ export default function HomePage() {
           </h1>
         </div>
         <h2 className="text-md mb-12 pr-10 pt-0 pl-4 text-gray-700 sm:text-lg md:pr-0 md:pt-0 md:pl-4 lg:pt-4 lg:pl-0">
-          Currently working on{" "}
-          <a
-            href="https://bedrck.co"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="ud text-gray-900"
-          >
-            Bedrock
-          </a>
-          . My future career goals are collaborating and helping build beautiful
+          Junior Frontend Developer from Liverpool, UK. My future career goals are collaborating and helping build beautiful
           UI for the web.
         </h2>
         <Projects />
