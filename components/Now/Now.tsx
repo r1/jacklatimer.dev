@@ -11,7 +11,7 @@ export default function Now() {
           </h2>
         </div>
         <ul className="pl-4 pr-4">
-          <li className="mb-2 pl-4 text-lg text-gray-700 md:pl-4 lg:pl-0">
+          <li className="mb-2 mt-6 pl-4 text-lg text-gray-700 md:pl-4 lg:pl-0">
             - Learning Vue.js
           </li>
           <li className="mb-2 pl-4 text-lg text-gray-700 md:pl-4 lg:pl-0">
