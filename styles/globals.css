@@ -90,3 +90,18 @@ body::-webkit-scrollbar-thumb {
   display: inline-block;
   line-height: 0.85;
 }
+
+.hide {
+  position: absolute;
+}
+
+@media only screen and (min-width: 700px) {
+  .show:hover + .hide {
+    display: block;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .show:hover + .hide {
+    display: hidden;
+  }
+}

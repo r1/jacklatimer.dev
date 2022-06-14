@@ -28,11 +28,4 @@ export const projectData = [
     github: "https://github.com/r1/revolut",
     link: "https://revolut.vercel.app/",
   },
-  {
-    title: "Bedrock",
-    image: "/images/bedrock",
-    description: "Coming soon.",
-    github: "https://github.com/r1/bedrock",
-    link: "https://bedrck.co/",
-  },
 ];

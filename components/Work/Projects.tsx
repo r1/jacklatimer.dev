@@ -144,7 +144,7 @@ export default function Projects() {
 
   return (
     <>
-      <h2 className="mb-1 p-4 text-3xl tracking-tight text-black md:p-4 md:text-4xl lg:mb-11 lg:p-0">
+      <h2 className="mb-1 p-4 text-3xl tracking-tight text-black md:p-4 md:text-4xl lg:mb-8 lg:p-0">
         Work
       </h2>
       {RenderFinal(projectData)}
