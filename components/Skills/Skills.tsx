@@ -2,7 +2,7 @@
 
 function Skills() {
   return (
-    <section className="mb-1 mt-10 lg:mb-4">
+    <section className="mb-1 mt-14 lg:mb-6">
       <h3 className="mb-1 p-4 text-3xl tracking-tight text-black md:p-4 md:text-4xl lg:mb-8 lg:p-0">
         Technologies
       </h3>
