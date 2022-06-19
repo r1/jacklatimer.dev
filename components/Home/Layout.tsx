@@ -2,8 +2,6 @@
 import React, { useEffect, useState } from "react";
 import Projects from "@/components/Work/Projects";
 import Skills from "@/components/Skills/Skills";
-import bannerImg1 from "@/public/images/Liverpool.jpg";
-import bannerImg2 from "@/public/images/Liverpool1.jpg";
 
 const images = [
   "/images/Liverpool.jpg",
@@ -47,7 +45,7 @@ export default function HomePage() {
               />
             </div>
           </div>
-          . I&apos;m currently interested in frontend development, animations &
+          . I&apos;m currently interested in fullstack development, animations &
           UI design.
         </h2>
         <Projects />

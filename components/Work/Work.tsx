@@ -14,7 +14,7 @@ export const projectData = [
     link: "https://nine4.app/",
   },
   {
-    title: "cssbuttons (sold)",
+    title: "cssbuttons",
     image: "/images/cssbuttons",
     description:
       "Button collection with a focus on simplicity and ease of use.",
@@ -24,8 +24,16 @@ export const projectData = [
   {
     title: "Revolut",
     image: "/images/revolut",
-    description: "Revolut clone built with Tailwind CSS & Next.js",
+    description: "Revolut clone built with Next.js & Tailwind CSS",
     github: "https://github.com/r1/revolut",
     link: "https://revolut.vercel.app/",
+  },
+  {
+    title: "Careers Page",
+    image: "/images/careers",
+    description:
+      "Careers page built with Next.js, Framer Motion & Tailwind CSS",
+    github: "https://github.com/r1/Careers-Page",
+    link: "https://careerspage.vercel.app/",
   },
 ];
