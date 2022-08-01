@@ -40,7 +40,7 @@ export default function Projects() {
       return (
         <>
           <div className="p-4 md:p-4 lg:p-0">
-            <div className="inline-block max-w-xs overflow-hidden rounded">
+            <div className="inline-block max-w-lg overflow-hidden">
               <Image
                 src={`${ProjectData.image}.png`}
                 alt={ProjectData.title}
@@ -55,10 +55,10 @@ export default function Projects() {
                 onLoadingComplete={() => setLoading(false)}
               />
               <div className="py-4 pr-4">
-                <div className="mb-2 text-xl font-bold text-black">
+                <div className="Inter-Medium mb-2 text-xl text-black">
                   {ProjectData.title}
                 </div>
-                <p className="text-base text-gray-600">
+                <p className="Inter-Medium text-base text-[#202020]">
                   {ProjectData.description}
                 </p>
               </div>
@@ -74,8 +74,8 @@ export default function Projects() {
                     <svg className="h-7 w-8" viewBox="0 0 24 24">
                       <g
                         fill="none"
-                        stroke="#161616"
-                        strokeWidth="2"
+                        stroke="#000"
+                        strokeWidth="1.5"
                         strokeLinecap="round"
                         strokeLinejoin="round"
                       >
@@ -94,10 +94,10 @@ export default function Projects() {
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
-                      stroke="#161616"
+                      stroke="#000"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      strokeWidth="2"
+                      strokeWidth="1.5"
                       className="feather feather-link-2 h-7 w-8"
                       viewBox="0 0 24 24"
                     >
@@ -125,18 +125,18 @@ export default function Projects() {
   ) => {
     return (
       <div>
-        <div className="mb-4 grid grid-cols-1 gap-0 sm:grid-cols-2  lg:gap-6">
+        <div className="mb-4 flex flex-col gap-0 lg:grid lg:grid-cols-2 lg:gap-6">
           {RenderProjects(ProjectData)}
-          <div className="p-3 sm:p-3 md:p-3 lg:p-0">
-            {showMore && (
-              <button
-                className="rounded-md bg-black py-2 px-5 text-[0.9rem] font-semibold text-white shadow-sm shadow-gray-400 focus:outline-none"
-                onClick={showMoreDocuments}
-              >
-                Show All{" "}
-              </button>
-            )}
-          </div>
+        </div>
+        <div className="p-3 sm:p-3 md:p-3 lg:p-0">
+          {showMore && (
+            <button
+              className="Inter-Medium w-full rounded-full border border-[#999999] py-2 px-5 text-center text-[0.9rem] text-black focus:outline-none"
+              onClick={showMoreDocuments}
+            >
+              Show All{" "}
+            </button>
+          )}
         </div>
       </div>
     );
@@ -144,8 +144,8 @@ export default function Projects() {
 
   return (
     <>
-      <h2 className="mb-1 p-4 text-3xl tracking-tight text-black md:p-4 md:text-4xl lg:mb-8 lg:p-0">
-        Work
+      <h2 className="Inter-Medium mb-1 px-4 text-2xl tracking-tight text-black md:px-4 md:text-3xl lg:mb-6 lg:px-0">
+        Side Projects
       </h2>
       {RenderFinal(projectData)}
     </>

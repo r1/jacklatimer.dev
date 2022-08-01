@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer className="mx-auto mb-4 flex max-w-2xl flex-col p-4 lg:mb-7 lg:p-0">
-      <div className="Inter-Regular flex space-x-9 font-semibold">
+      <div className="Inter-Medium flex space-x-9">
         <a
           href="https://github.com/r1"
           className="text-[#000000] transition"

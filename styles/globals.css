@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 @font-face {
+  font-family: Inter-Light;
+  src: url(../public/fonts/Inter-Light.ttf);
+}
+
+@font-face {
   font-family: Inter-Regular;
   src: url(../public/fonts/Inter-Regular.ttf);
 }
@@ -39,7 +44,6 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-  border-radius: 3px;
   background-color: #000000;
 }
 
@@ -73,6 +77,10 @@ body::-webkit-scrollbar-thumb {
   color: hsla(0, 0%, 100%, 0.7);
 }
 
+.Inter-Light {
+  font-family: Inter-Light;
+}
+
 .Inter-Bold {
   font-family: Inter-Bold;
 }
@@ -100,8 +108,37 @@ body::-webkit-scrollbar-thumb {
     display: block;
   }
 }
+
 @media only screen and (max-width: 600px) {
   .show:hover + .hide {
     display: hidden;
+  }
+}
+
+.anim {
+  --color: #e6adaf;
+  --color2: #ea3590;
+  position: relative;
+  background: linear-gradient(
+    120deg,
+    var(--color) 0%,
+    var(--color2) 50%,
+    var(--color) 100%
+  );
+  background-size: 200% auto;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: unset;
+  -webkit-animation: animkey 3s linear infinite forwards;
+  animation: animkey 3s linear infinite forwards;
+}
+
+@keyframes animkey {
+  to {
+    background-position: -200%;
   }
 }

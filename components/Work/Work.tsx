@@ -1,5 +1,12 @@
 export const projectData = [
   {
+    title: "Ring 🛠️",
+    image: "/images/ring",
+    description: "Ecommerce Website Concept for Ring",
+    github: "https://github.com/r1/ring",
+    link: "https://ring-com.vercel.app/",
+  },
+  {
     title: "The Met",
     image: "/images/MET",
     description: "Website Concept for The Met",
@@ -16,15 +23,14 @@ export const projectData = [
   {
     title: "cssbuttons",
     image: "/images/cssbuttons",
-    description:
-      "Button collection with a focus on simplicity and ease of use.",
+    description: "Buttons Collection",
     github: "https://github.com/r1/cssbuttons",
     link: "https://cssbuttons.app/",
   },
   {
     title: "Revolut",
     image: "/images/revolut",
-    description: "Revolut clone built with Next.js & Tailwind CSS",
+    description: "Website Concept for Revolut",
     github: "https://github.com/r1/revolut",
     link: "https://revolut.vercel.app/",
   },
@@ -32,7 +38,7 @@ export const projectData = [
     title: "Careers Page",
     image: "/images/careers",
     description:
-      "Careers page built with Next.js, Framer Motion & Tailwind CSS",
+      "Careers Page Concept",
     github: "https://github.com/r1/Careers-Page",
     link: "https://careerspage.vercel.app/",
   },

@@ -3,10 +3,10 @@
 export default function Skills() {
   return (
     <section className="mb-1 mt-14 lg:mb-6">
-      <h3 className="mb-1 p-4 text-3xl tracking-tight text-black md:p-4 md:text-4xl lg:mb-8 lg:p-0">
+      <h3 className="Inter-Medium mb-1 p-4 text-2xl tracking-tight text-black md:p-4 md:text-3xl lg:mb-8 lg:p-0">
         Technologies
       </h3>
-      <div className="gap-26  grid w-full grid-cols-1 p-4 sm:mb-11 sm:grid-cols-3 md:p-4 lg:p-0">
+      <div className="gap-26 Inter-Medium grid w-full grid-cols-1 p-4 sm:mb-11 sm:grid-cols-3 md:p-4 lg:p-0">
         <div className="flex flex-col space-y-4">
           <h2 className="text-lg text-gray-800">Languages</h2>
           <h3 className="text-gray-700">HTML</h3>

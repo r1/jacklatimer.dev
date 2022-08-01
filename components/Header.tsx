@@ -12,8 +12,8 @@ function NavItem({ href, text }) {
       <a
         className={cn(
           isActive
-            ? "font-semibold text-gray-900"
-            : "Inter-Medium text-gray-700",
+            ? "Inter-Regular font-semibold text-black"
+            : "Inter-Medium text-[#202020]",
           "p-1 pr-4 sm:p-4"
         )}
       >
@@ -26,19 +26,7 @@ function NavItem({ href, text }) {
 export default function Container() {
   return (
     <>
-      <nav className="sticky-nav md-auto Inter-Regular mx-auto my-0 flex w-full max-w-4xl items-center justify-between p-3 py-8 text-gray-400">
-        <div className="p-1 md:p-4">
-          <a aria-label="Square" href="/">
-            <svg
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <rect width="24" height="24" fill="#000000"></rect>
-            </svg>
-          </a>
-        </div>
+      <nav className="sticky-nav Inter-Regular mx-auto my-0 flex w-full max-w-2xl justify-end py-8 text-gray-400">
         <div>
           <NavItem href="/" text="Home" />
           <NavItem href="/now" text="Now" />
