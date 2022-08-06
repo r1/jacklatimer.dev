@@ -39,40 +39,6 @@ body {
   overflow-x: hidden;
 }
 
-body::-webkit-scrollbar {
-  width: 0.6em;
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: #000000;
-}
-
-::-moz-selection {
-  background: #000000;
-  color: #ffffff;
-}
-
-::-webkit-selection {
-  background: #000000;
-  color: #ffffff;
-}
-
-::selection {
-  background: #000000;
-  color: #ffffff;
-}
-
-#__next {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-.sticky-nav {
-  position: sticky;
-  top: 0;
-}
-
 .text-gray {
   color: hsla(0, 0%, 100%, 0.7);
 }
@@ -126,11 +92,10 @@ body::-webkit-scrollbar-thumb {
     var(--color) 100%
   );
   background-size: 200% auto;
-  -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
-  -webkit-box-decoration-break: clone;
   background-clip: text;
-  -webkit-background-clip: text;
+  box-decoration-break: clone;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   color: unset;
   -webkit-animation: animkey 3s linear infinite forwards;

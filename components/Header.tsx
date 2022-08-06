@@ -26,7 +26,7 @@ function NavItem({ href, text }) {
 export default function Container() {
   return (
     <>
-      <nav className="sticky-nav Inter-Regular mx-auto my-0 flex w-full max-w-2xl justify-end py-8 text-gray-400">
+      <nav className="Inter-Regular mx-auto my-0 flex w-full max-w-2xl justify-end py-8 text-gray-400">
         <div>
           <NavItem href="/" text="Home" />
           <NavItem href="/now" text="Now" />
